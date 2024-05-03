@@ -1,0 +1,8 @@
+{
+  "trashOption": "local",
+  "newFileLocation": "folder",
+  "attachmentFolderPath": "source",
+  "newFileFolderPath": "00_inbox",
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
+}

@@ -1,0 +1,31 @@
+
+
+
+
+
+
+
+```bash
+#!/bin/bash
+set -ex
+file="mi.csv" # 替换为你的文件名
+while IFS= read -r line
+do
+  echo "$line"
+  IFS=',' read -ra tokens <<< "$line"
+  psm=${tokens[0]}
+  pods=${tokens[1]}
+  requestCpu=${tokens[2]}
+  requestMem=${tokens[3]}
+  limitCpu=${tokens[4]}
+  limitMem=${tokens[5]}
+
+  deploys=$(kubectl get deploy -l psm=$psm -n compute | awk '{print $1}')
+  readarray -t my_array <<< "$deploys"
+  for i in "${my_array[@]}"; do
+       echo kubectl set resources deployment $i --requests=cpu=$requestCpu,memory=$requestMem --limits=cpu=$limitCpu,memory=$limitMem -ncompute
+       echo kubectl scale deployment.v1.apps/$i --replicas=$pods -n compute
+  done
+done < "$file"
+```
+

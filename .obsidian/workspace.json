@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "29e11b9179a38b7c",
+    "type": "split",
+    "children": [
+      {
+        "id": "7720864db574a537",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7924d53e75fcffd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_inbox/标题.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a87b5506b94e8ea4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_inbox/画图学习.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eeb99ec96a347048",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_inbox/标题.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ab77fa1832e93e07",
+    "type": "split",
+    "children": [
+      {
+        "id": "275fb2c717894cb6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52d6360f8882567f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ddf9e28966a9b592",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e6eef79a45915271",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "c0bc9cf43e68bf81",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5af909c1580d12c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b70e9d2f3c45112",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1717f5ef2e5c88df",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00_inbox/画图学习.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0520a6da1b92608f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00_inbox/画图学习.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "925eda73dc711c4e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "395ad7fab9a2070b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2759f31bfaaded1c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00_inbox/画图学习.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 469.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "smart-random-note:Open Random Note from Search": false
+    }
+  },
+  "active": "a87b5506b94e8ea4",
+  "lastOpenFiles": [
+    "00_inbox/学习.md",
+    "00_inbox/画图学习.md",
+    "00_inbox/标题.md",
+    "未命名",
+    "文档 Welcome.md",
+    "00_inbox/create a link.md",
+    "会议记录/123会议.md",
+    "00_inbox/yaml meta.md",
+    "未命名.canvas",
+    "Excalidraw/Drawing 2024-04-30 13.02.38.excalidraw.md",
+    "Excalidraw",
+    "source/tmplates/会议记录模板.md",
+    "会议记录",
+    "source/tmplates/日记模板.md",
+    "source/tmplates",
+    "2024-04-30.md",
+    "source",
+    "00_inbox"
+  ]
+}
