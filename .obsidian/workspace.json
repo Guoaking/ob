@@ -98,7 +98,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -185,11 +186,10 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "smart-random-note:Open Random Note from Search": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a87b5506b94e8ea4",
+  "active": "c0bc9cf43e68bf81",
   "lastOpenFiles": [
     "00_inbox/学习.md",
     "00_inbox/画图学习.md",
