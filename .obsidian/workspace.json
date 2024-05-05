@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_inbox/标题.md",
+                "file": "cb/cb1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ed4081cab4a19bd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cb/cb1.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,28 +35,11 @@
             "id": "a87b5506b94e8ea4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_inbox/画图学习.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eeb99ec96a347048",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_inbox/标题.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,8 +93,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -119,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_inbox/画图学习.md",
+                "file": "cb/cb1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00_inbox/画图学习.md",
+                "file": "cb/cb1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_inbox/画图学习.md"
+                "file": "cb/cb1.md"
               }
             }
           }
@@ -176,7 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 469.5
+    "width": 256.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,15 +180,17 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "c0bc9cf43e68bf81",
+  "active": "7924d53e75fcffd6",
   "lastOpenFiles": [
-    "00_inbox/学习.md",
-    "00_inbox/画图学习.md",
     "00_inbox/标题.md",
-    "未命名",
+    "cb/cb1.md",
+    "cb",
+    "00_inbox/画图学习.md",
+    "00_inbox/学习.md",
     "文档 Welcome.md",
     "00_inbox/create a link.md",
     "会议记录/123会议.md",
