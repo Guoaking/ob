@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cb/cb1.md",
+                "file": "00_inbox/2024-05-06.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cb/cb1.md",
+                "file": "00_inbox/2024-05-06.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cb/cb1.md",
+                "file": "00_inbox/2024-05-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,19 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cb/cb1.md"
+                "file": "00_inbox/2024-05-06.md"
+              }
+            }
+          },
+          {
+            "id": "f1089d30bd72e1d5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -154,6 +166,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian42-brat:BRAT": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -161,25 +174,27 @@
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "smart-random-note:Open Random Note from Search": false
+      "smart-random-note:Open Random Note from Search": false,
+      "daily-notes:打开/创建今天的日记": false
     }
   },
-  "active": "c2f005aab3edb147",
+  "active": "52d6360f8882567f",
   "lastOpenFiles": [
-    "cb/cb1.md",
+    "01流水",
+    "00_inbox/画图学习.md",
+    "00_inbox/2024-05-06.md",
     "00_inbox/标题.md",
+    "Excalidraw/Drawing 2024-04-30 13.02.38.excalidraw.md",
+    "cb/cb1.md",
     "cb",
     "README.md",
-    "00_inbox/画图学习.md",
     "Excalidraw/Drawing 2024-05-03 15.23.28.excalidraw.md",
     "00_inbox/学习.md",
-    "未命名",
     "文档 Welcome.md",
     "00_inbox/create a link.md",
     "会议记录/123会议.md",
     "00_inbox/yaml meta.md",
     "未命名.canvas",
-    "Excalidraw/Drawing 2024-04-30 13.02.38.excalidraw.md",
     "Excalidraw",
     "source/tmplates/会议记录模板.md",
     "会议记录",

@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "cb1",
-      "path": "cb/cb1.md"
+      "basename": "2024-05-06",
+      "path": "00_inbox/2024-05-06.md"
+    },
+    {
+      "basename": "画图学习",
+      "path": "00_inbox/画图学习.md"
     },
     {
       "basename": "标题",
       "path": "00_inbox/标题.md"
     },
     {
-      "basename": "画图学习",
-      "path": "00_inbox/画图学习.md"
+      "basename": "Drawing 2024-04-30 13.02.38.excalidraw",
+      "path": "Excalidraw/Drawing 2024-04-30 13.02.38.excalidraw.md"
+    },
+    {
+      "basename": "cb1",
+      "path": "cb/cb1.md"
     },
     {
       "basename": "学习",
@@ -35,10 +43,6 @@
     {
       "basename": "未命名",
       "path": "未命名.canvas"
-    },
-    {
-      "basename": "Drawing 2024-04-30 13.02.38.excalidraw",
-      "path": "Excalidraw/Drawing 2024-04-30 13.02.38.excalidraw.md"
     }
   ],
   "omittedPaths": [],

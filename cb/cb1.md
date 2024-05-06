@@ -8,7 +8,14 @@
 每次**只亏这个头寸的 10-20%**，我得需要做好 200 次亏光的准备。？？？
 **必须保证一直有能力在牌桌上**玩下去 **盈亏比最起码有 1:1**，胜率高于 60%你就可以赚钱了
 
-  
+
+
+
+https://t.me/c/1675761968/200020
+
+![|622](https://vpbwqsqb95.feishu.cn/space/api/box/stream/download/asynccode/?code=YmZhYzllZGY4Mjk1YWFiMjA4MGFiY2FiYWRjMDZhODJfUkdYa2RscmNFV3V3cllOSjRkUDd3YlJNcFpaT2VqbndfVG9rZW46VG9kZ2JvVVBKb0JFZ254TmhhNGMyeEdLblJOXzE3MTQ5NzE0ODI6MTcxNDk3NTA4Ml9WNA)
+
+### 反思与总结 
 
 ## 周五 3.8
 
@@ -17,8 +24,19 @@
 ### POLYX
 
 https://t.me/c/1675761968/200020
+![1.png](https://vpbwqsqb95.feishu.cn/space/api/box/stream/download/asynccode/?code=ZGRmZWJmNzdhMjc3ZTZmMzQwNmUwZTBiZjNhZjQ1N2RfSFR0WGE2YzRCWHcwQ2NpMmZFQVVCMHVWMTIzdUNoMW9fVG9rZW46VG9kZ2JvVVBKb0JFZ254TmhhNGMyeEdLblJOXzE3MTQ5MDA2MTM6MTcxNDkwNDIxM19WNA)
 
-![](https://vpbwqsqb95.feishu.cn/space/api/box/stream/download/asynccode/?code=ZGRmZWJmNzdhMjc3ZTZmMzQwNmUwZTBiZjNhZjQ1N2RfSFR0WGE2YzRCWHcwQ2NpMmZFQVVCMHVWMTIzdUNoMW9fVG9rZW46VG9kZ2JvVVBKb0JFZ254TmhhNGMyeEdLblJOXzE3MTQ5MDA2MTM6MTcxNDkwNDIxM19WNA
+
+
+[image](https://vpbwqsqb95.feishu.cn/space/api/box/stream/download/asynccode/?code=ZGRmZWJmNzdhMjc3ZTZmMzQwNmUwZTBiZjNhZjQ1N2RfSFR0WGE2YzRCWHcwQ2NpMmZFQVVCMHVWMTIzdUNoMW9fVG9rZW46VG9kZ2JvVVBKb0JFZ254TmhhNGMyeEdLblJOXzE3MTQ5MDA2MTM6MTcxNDkwNDIxM19WNA)
+
+
+https://vpbwqsqb95.feishu.cn/space/api/box/stream/download/asynccode/?code=ZGRmZWJmNzdhMjc3ZTZmMzQwNmUwZTBiZjNhZjQ1N2RfSFR0WGE2YzRCWHcwQ2NpMmZFQVVCMHVWMTIzdUNoMW9fVG9rZW46VG9kZ2JvVVBKb0JFZ254TmhhNGMyeEdLblJOXzE3MTQ5MDA2MTM6MTcxNDkwNDIxM19WNA 
+
+
+https://vpbwqsqb95.feishu.cn/space/api/box/stream/download/asynccode/?code=YmZhYzllZGY4Mjk1YWFiMjA4MGFiY2FiYWRjMDZhODJfUkdYa2RscmNFV3V3cllOSjRkUDd3YlJNcFpaT2VqbndfVG9rZW46VG9kZ2JvVVBKb0JFZ254TmhhNGMyeEdLblJOXzE3MTQ5NzE0ODI6MTcxNDk3NTA4Ml9WNA
+
+![](https://vpbwqsqb95.feishu.cn/space/api/box/stream/download/asynccode/?code=ZGRmZWJmNzdhMjc3ZTZmMzQwNmUwZTBiZjNhZjQ1N2RfSFR0WGE2YzRCWHcwQ2NpMmZFQVVCMHVWMTIzdUNoMW9fVG9rZW46VG9kZ2JvVVBKb0JFZ254TmhhNGMyeEdLblJOXzE3MTQ5MDA2MTM6MTcxNDkwNDIxM19WNA)
 
 ### 反思总结
 

@@ -4,7 +4,6 @@
   "quick-explorer",
   "obsidian-excalidraw-plugin",
   "dataview",
-  "link-favicon",
   "obsidian-reveal-active-file",
   "cmenu-plugin",
   "obsidian-cursor-location-plugin",
@@ -14,5 +13,7 @@
   "quickadd",
   "smart-random-note",
   "note-refactor-obsidian",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian42-brat",
+  "attachment-flow-plugin"
 ]
