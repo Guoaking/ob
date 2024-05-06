@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7720864db574a537",
+        "id": "b40ca1e687a10906",
         "type": "tabs",
         "children": [
           {
-            "id": "7924d53e75fcffd6",
+            "id": "c2f005aab3edb147",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -17,26 +17,6 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "ed4081cab4a19bd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cb/cb1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a87b5506b94e8ea4",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -166,11 +146,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 469.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,13 +164,16 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "7924d53e75fcffd6",
+  "active": "c2f005aab3edb147",
   "lastOpenFiles": [
-    "00_inbox/标题.md",
     "cb/cb1.md",
+    "00_inbox/标题.md",
     "cb",
+    "README.md",
     "00_inbox/画图学习.md",
+    "Excalidraw/Drawing 2024-05-03 15.23.28.excalidraw.md",
     "00_inbox/学习.md",
+    "未命名",
     "文档 Welcome.md",
     "00_inbox/create a link.md",
     "会议记录/123会议.md",
