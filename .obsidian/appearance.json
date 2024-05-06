@@ -3,5 +3,6 @@
   "cssTheme": "Typora-Vue",
   "enabledCssSnippets": [
     "my-style"
-  ]
+  ],
+  "nativeMenus": false
 }

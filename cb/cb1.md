@@ -10,6 +10,9 @@
 
 
 
+![](polyx.png)
+
+
 
 https://t.me/c/1675761968/200020
 
@@ -38,7 +41,7 @@ https://vpbwqsqb95.feishu.cn/space/api/box/stream/download/asynccode/?code=YmZhY
 
 ![](https://vpbwqsqb95.feishu.cn/space/api/box/stream/download/asynccode/?code=ZGRmZWJmNzdhMjc3ZTZmMzQwNmUwZTBiZjNhZjQ1N2RfSFR0WGE2YzRCWHcwQ2NpMmZFQVVCMHVWMTIzdUNoMW9fVG9rZW46VG9kZ2JvVVBKb0JFZ254TmhhNGMyeEdLblJOXzE3MTQ5MDA2MTM6MTcxNDkwNDIxM19WNA)
 
-### 反思总结
+### 反思与总结
 
 牛市吃饱
 
@@ -46,7 +49,7 @@ https://vpbwqsqb95.feishu.cn/space/api/box/stream/download/asynccode/?code=YmZhY
 
 ## 周四 3.7
 
-### 反思总结
+### 反思与总结
 
   
 
@@ -342,7 +345,7 @@ api3：[日记](https://vpbwqsqb95.feishu.cn/wiki/NerrwmoqeiVX9okBdqLcGvDmnlg?fr
 需要改进的：
 
 ---
-
+![](Pasted%20image%2020240506133123.png)
   
 
 ## 周一 3.4

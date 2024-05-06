@@ -1,8 +1,10 @@
 {
   "trashOption": "local",
   "newFileLocation": "folder",
-  "attachmentFolderPath": "source",
+  "attachmentFolderPath": "source/img",
   "newFileFolderPath": "00_inbox",
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true
 }

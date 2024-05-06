@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_inbox/2024-05-06.md",
+                "file": "cb/00.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,11 +48,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "section:(反思与总结)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
@@ -88,12 +88,22 @@
         "type": "tabs",
         "children": [
           {
+            "id": "2759f31bfaaded1c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "cb/00.md"
+              }
+            }
+          },
+          {
             "id": "1717f5ef2e5c88df",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_inbox/2024-05-06.md",
+                "file": "cb/00.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,12 +120,18 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00_inbox/2024-05-06.md",
+                "file": "cb/00.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "d4ae473e904d0e5b",
+        "type": "tabs",
+        "children": [
           {
             "id": "925eda73dc711c4e",
             "type": "leaf",
@@ -131,17 +147,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "2759f31bfaaded1c",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "00_inbox/2024-05-06.md"
+                "useHierarchy": false
               }
             }
           },
@@ -158,11 +164,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 469.5
+    "width": 395.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,36 +177,42 @@
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "smart-random-note:Open Random Note from Search": false,
       "daily-notes:打开/创建今天的日记": false
     }
   },
-  "active": "52d6360f8882567f",
+  "active": "c2f005aab3edb147",
   "lastOpenFiles": [
-    "01流水",
-    "00_inbox/画图学习.md",
-    "00_inbox/2024-05-06.md",
-    "00_inbox/标题.md",
-    "Excalidraw/Drawing 2024-04-30 13.02.38.excalidraw.md",
     "cb/cb1.md",
-    "cb",
-    "README.md",
-    "Excalidraw/Drawing 2024-05-03 15.23.28.excalidraw.md",
+    "cb/00.md",
     "00_inbox/学习.md",
+    "README.md",
+    "未命名.canvas",
     "文档 Welcome.md",
+    "2024-04-30.md",
+    "source/img/polyx.png",
+    "source/img/Pasted image 20240506133123.png",
+    "source/Pasted image 20240506132803.png",
+    "source/tmplates/会议记录模板.md",
+    "source/img",
+    "source/tmplates/日记模板.md",
+    "01_流水/2024-05-06.md",
+    "00_inbox/标题.md",
+    "00_inbox/画图学习.md",
+    "Excalidraw/Drawing 2024-04-30 13.02.38.excalidraw.md",
+    "00_inbox/2024-05-06.md",
+    "01_流水",
+    "cb",
+    "Excalidraw/Drawing 2024-05-03 15.23.28.excalidraw.md",
     "00_inbox/create a link.md",
     "会议记录/123会议.md",
     "00_inbox/yaml meta.md",
-    "未命名.canvas",
     "Excalidraw",
-    "source/tmplates/会议记录模板.md",
     "会议记录",
-    "source/tmplates/日记模板.md",
     "source/tmplates",
-    "2024-04-30.md",
     "source",
     "00_inbox"
   ]
