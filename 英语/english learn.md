@@ -10,5 +10,20 @@ Author : [猛虎狂奔](https://space.bilibili.com/1091814913)
 
 
 
+![成年人eng速成指南](成年人eng速成指南.md)
+
+[商务英语口语](https://www.bilibili.com/video/BV1QY4y1k7oK/?share_source=copy_web&vd_source=bd28e4ff5b76a6bfa6eadd8a9abd2b4f)
+
+摘抄? 
+
+### 听
+### 说
+### 读
+### 写
+
+
+经常要啃论文、啃白皮书技术原理的需求
+[语法视频](https://www.bilibili.com/video/BV1XY411J7aG/?share_source=copy_web&vd_source=bd28e4ff5b76a6bfa6eadd8a9abd2b4f)
+
 
 
