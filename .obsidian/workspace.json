@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2e592c25bcacc7d7",
+        "id": "b40ca1e687a10906",
         "type": "tabs",
         "children": [
           {
-            "id": "01d3ae7642cf11c0",
+            "id": "606eb7780445e98d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cb/NFT.md",
+                "file": "00_inbox/remote 资料.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,11 +48,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "section:(反思与总结)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
@@ -88,12 +88,22 @@
         "type": "tabs",
         "children": [
           {
+            "id": "2759f31bfaaded1c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00_inbox/remote 资料.md"
+              }
+            }
+          },
+          {
             "id": "1717f5ef2e5c88df",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cb/NFT.md",
+                "file": "00_inbox/remote 资料.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,12 +120,18 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cb/NFT.md",
+                "file": "00_inbox/remote 资料.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "d4ae473e904d0e5b",
+        "type": "tabs",
+        "children": [
           {
             "id": "925eda73dc711c4e",
             "type": "leaf",
@@ -131,22 +147,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
           {
-            "id": "2759f31bfaaded1c",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "cb/NFT.md"
-              }
-            }
-          },
-          {
-            "id": "a21408ef6670b434",
+            "id": "f1089d30bd72e1d5",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -158,78 +164,69 @@
             }
           }
         ],
-        "currentTab": 4
-      },
-      {
-        "id": "60256274ad665b37",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a87b5506b94e8ea4",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 395.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "obsidian42-brat:BRAT": false,
-      "daily-notes:打开/创建今天的日记": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "smart-random-note:Open Random Note from Search": false
+      "smart-random-note:Open Random Note from Search": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "obsidian-memos:Thino": false
     }
   },
-  "active": "01d3ae7642cf11c0",
+  "active": "606eb7780445e98d",
   "lastOpenFiles": [
-    "cb/eth.md",
-    "cb/cb2.md",
-    "cb/cb1.md",
+    "英语/成年人eng速成指南.md",
+    "英语/动词(verbs).md",
     "工作/如何找工作（附web3找工作FAQ）.md",
-    "perions/未命名.md",
-    "英语/english learn.md",
+    "工作",
     "perions/我能带来什么.md",
     "perions",
-    "英语/动词(verbs).md",
-    "英语/成年人eng速成指南.md",
-    "工作",
-    "00_inbox/remote 资料.md",
-    "01_流水/2024-05-07.md",
-    "01_流水/2024-05-06.md",
-    "计算机相关/网络/TCPIP.md",
+    "999_source/tmplates/日记模板.md",
+    "999_source/tmplates/会议记录模板.md",
+    "999_source/img/polyx.png",
+    "999_source/tmplates",
+    "999_source/img",
+    "999_source",
+    "cb/eth.md",
+    "cb/NFT.md",
     "计算机相关/网络/NAT.md",
+    "?",
     "计算机相关/网络/DNS.md",
+    "计算机相关/网络/TCPIP.md",
+    "00_inbox/mermaid画图.md",
+    "英语/english learn.md",
+    "英语",
     "计算机相关/网络",
     "计算机相关",
-    "英语",
-    "cb/NFT.md",
     "00_inbox/脚本.md",
-    "00_inbox/mermaid画图.md",
+    "00_inbox/remote 资料.md",
     "00_inbox/Obsidian学习.md",
+    "01_流水/2024-05-07.md",
+    "01_流水/2024-05-06.md",
     "cb/00.md",
+    "cb/cb2.md",
+    "cb/cb1.md",
     "README.md",
-    "999_source/img/polyx.png",
-    "999_source/img",
-    "01_流水",
-    "00_inbox/标题.md",
-    "cb",
-    "00_inbox/画图学习.md",
-    "00_inbox/学习.md",
-    "文档 Welcome.md",
     "未命名.canvas",
-    "Excalidraw",
-    "会议记录"
+    "文档 Welcome.md",
+    "2024-04-30.md",
+    "source/img/polyx.png",
+    "source/img/Pasted image 20240506133123.png",
+    "source/Pasted image 20240506132803.png",
+    "source/tmplates/会议记录模板.md",
+    "source/img",
+    "source/tmplates/日记模板.md"
   ]
 }
