@@ -1,5 +1,4 @@
 [
-  "recent-files-obsidian",
   "file-explorer-note-count",
   "quick-explorer",
   "obsidian-excalidraw-plugin",
@@ -15,5 +14,7 @@
   "note-refactor-obsidian",
   "obsidian-git",
   "obsidian42-brat",
-  "attachment-flow-plugin"
+  "attachment-flow-plugin",
+  "obsidian-memos",
+  "link-favicon"
 ]

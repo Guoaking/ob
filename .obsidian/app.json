@@ -1,6 +1,6 @@
 {
   "trashOption": "local",
-  "newFileLocation": "folder",
+  "newFileLocation": "current",
   "attachmentFolderPath": "source/img",
   "newFileFolderPath": "00_inbox",
   "alwaysUpdateLinks": true,

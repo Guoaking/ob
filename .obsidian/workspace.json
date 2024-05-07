@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c2f005aab3edb147",
+            "id": "606eb7780445e98d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_inbox/远程remote资料.md",
+                "file": "00_inbox/remote 资料.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_inbox/远程remote资料.md"
+                "file": "00_inbox/remote 资料.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_inbox/远程remote资料.md",
+                "file": "00_inbox/remote 资料.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00_inbox/远程remote资料.md",
+                "file": "00_inbox/remote 资料.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,15 +181,31 @@
       "workspaces:管理工作区布局": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "smart-random-note:Open Random Note from Search": false,
-      "daily-notes:打开/创建今天的日记": false
+      "daily-notes:打开/创建今天的日记": false,
+      "obsidian-memos:Thino": false
     }
   },
-  "active": "c2f005aab3edb147",
+  "active": "52d6360f8882567f",
   "lastOpenFiles": [
+    "cb/eth.md",
+    "cb/NFT.md",
+    "计算机相关/网络/NAT.md",
+    "?",
+    "计算机相关/网络/DNS.md",
+    "计算机相关/网络/TCPIP.md",
+    "00_inbox/mermaid画图.md",
+    "英语/english learn.md",
+    "英语",
+    "计算机相关/网络",
+    "计算机相关",
+    "00_inbox/脚本.md",
+    "00_inbox/remote 资料.md",
+    "00_inbox/Obsidian学习.md",
+    "01_流水/2024-05-07.md",
+    "01_流水/2024-05-06.md",
     "cb/00.md",
     "cb/cb2.md",
     "cb/cb1.md",
-    "00_inbox/学习.md",
     "README.md",
     "未命名.canvas",
     "文档 Welcome.md",
@@ -200,21 +216,14 @@
     "source/tmplates/会议记录模板.md",
     "source/img",
     "source/tmplates/日记模板.md",
-    "01_流水/2024-05-06.md",
-    "00_inbox/远程remote资料.md",
-    "00_inbox/画图学习.md",
     "Excalidraw/Drawing 2024-04-30 13.02.38.excalidraw.md",
     "00_inbox/2024-05-06.md",
     "01_流水",
     "cb",
     "Excalidraw/Drawing 2024-05-03 15.23.28.excalidraw.md",
-    "00_inbox/create a link.md",
     "会议记录/123会议.md",
-    "00_inbox/yaml meta.md",
     "Excalidraw",
     "会议记录",
-    "source/tmplates",
-    "source",
-    "00_inbox"
+    "source/tmplates"
   ]
 }

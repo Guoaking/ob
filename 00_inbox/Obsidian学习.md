@@ -1,5 +1,19 @@
 
-[[文档 Welcome]]
+[[TCPIP]]
+
+
+[obsidian中文教程](https://publish.obsidian.md/chinesehelp)
+
+[obsidian Help](https://help.obsidian.md/Plugins/Search)
+
+[obsidian API](https://docs.obsidian.md/Reference/TypeScript+API)
+
+[obsidian 中文论坛](https://forum-zh.obsidian.md/)
+
+
+[dataview API](https://blacksmithgu.github.io/obsidian-dataview/api/code-reference/)
+
+
 
 1. [[]]  ^  配置链接.  ! 预览功能  | 别名
 
