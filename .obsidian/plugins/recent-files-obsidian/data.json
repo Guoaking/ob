@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "cb2",
-      "path": "cb/cb2.md"
+      "basename": "远程remote资料",
+      "path": "00_inbox/远程remote资料.md"
     },
     {
       "basename": "00",
@@ -13,20 +13,36 @@
       "path": "cb/cb1.md"
     },
     {
+      "basename": "学习",
+      "path": "00_inbox/学习.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
     {
-      "basename": "标题",
-      "path": "00_inbox/标题.md"
+      "basename": "polyx",
+      "path": "source/img/polyx.png"
+    },
+    {
+      "basename": "会议记录模板",
+      "path": "source/tmplates/会议记录模板.md"
+    },
+    {
+      "basename": "日记模板",
+      "path": "source/tmplates/日记模板.md"
+    },
+    {
+      "basename": "2024-05-06",
+      "path": "01_流水/2024-05-06.md"
     },
     {
       "basename": "画图学习",
       "path": "00_inbox/画图学习.md"
     },
     {
-      "basename": "学习",
-      "path": "00_inbox/学习.md"
+      "basename": "Drawing 2024-04-30 13.02.38.excalidraw",
+      "path": "Excalidraw/Drawing 2024-04-30 13.02.38.excalidraw.md"
     },
     {
       "basename": "create a link",
@@ -35,10 +51,6 @@
     {
       "basename": "yaml meta",
       "path": "00_inbox/yaml meta.md"
-    },
-    {
-      "basename": "Drawing 2024-04-30 13.02.38.excalidraw",
-      "path": "Excalidraw/Drawing 2024-04-30 13.02.38.excalidraw.md"
     }
   ],
   "omittedPaths": [],
