@@ -32,3 +32,11 @@ Yukang
 https://github.com/chenyukang
 https://catcoding.me/
 
+
+### 找到前 1000 个用户
+推广应用
+寻找目标用户
+市场测试, 用户反馈收集
+
+[1000UserGuide](https://github.com/naxiaoduo/1000UserGuide)
+

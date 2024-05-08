@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b40ca1e687a10906",
+        "id": "7f73ca6cad48fabf",
         "type": "tabs",
         "children": [
           {
-            "id": "606eb7780445e98d",
+            "id": "1502d57d0f70bf47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_inbox/remote 资料.md",
+                "file": "cb/cb2.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,21 +43,6 @@
             }
           },
           {
-            "id": "ddf9e28966a9b592",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "section:(反思与总结)",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": true,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
             "id": "e6eef79a45915271",
             "type": "leaf",
             "state": {
@@ -66,11 +51,18 @@
             }
           },
           {
-            "id": "c0bc9cf43e68bf81",
+            "id": "ddf9e28966a9b592",
             "type": "leaf",
             "state": {
-              "type": "recent-files",
-              "state": {}
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              }
             }
           }
         ]
@@ -93,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_inbox/remote 资料.md"
+                "file": "cb/cb2.md"
               }
             }
           },
@@ -103,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_inbox/remote 资料.md",
+                "file": "cb/cb2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00_inbox/remote 资料.md",
+                "file": "cb/cb2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,20 +174,38 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "smart-random-note:Open Random Note from Search": false,
       "daily-notes:打开/创建今天的日记": false,
-      "obsidian-memos:Thino": false
+      "obsidian-memos:Thino": false,
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "606eb7780445e98d",
+  "active": "1502d57d0f70bf47",
   "lastOpenFiles": [
-    "英语/成年人eng速成指南.md",
-    "英语/动词(verbs).md",
+    "01_流水/2024-05-08.md",
+    "cb/cb1.md",
+    "cb/cb2.md",
+    "00_inbox/Obsidian学习.md",
+    "cb/00.md",
+    "999_source/img/Pasted image 20240508133423.png",
+    "999_source/img/Pasted image 20240508133633.png",
+    "999_source/img/Pasted image 20240508133545.png",
+    "Pasted image 20240508133253.png",
+    "Pasted image 20240508133340.png",
+    "999_source/img/polyx.png",
+    "Pasted image 20240508133257.png",
+    "Pasted image 20240508133255.png",
     "工作/如何找工作（附web3找工作FAQ）.md",
+    "未命名.canvas",
+    "00_inbox/remote 资料.md",
+    "计算机相关/网络/DNS.md",
+    "英语/english learn.md",
+    "英语/成年人eng速成指南.md",
+    "计算机相关/00 资料.md",
+    "英语/动词(verbs).md",
     "工作",
     "perions/我能带来什么.md",
     "perions",
     "999_source/tmplates/日记模板.md",
     "999_source/tmplates/会议记录模板.md",
-    "999_source/img/polyx.png",
     "999_source/tmplates",
     "999_source/img",
     "999_source",
@@ -203,30 +213,18 @@
     "cb/NFT.md",
     "计算机相关/网络/NAT.md",
     "?",
-    "计算机相关/网络/DNS.md",
     "计算机相关/网络/TCPIP.md",
     "00_inbox/mermaid画图.md",
-    "英语/english learn.md",
     "英语",
     "计算机相关/网络",
     "计算机相关",
     "00_inbox/脚本.md",
-    "00_inbox/remote 资料.md",
-    "00_inbox/Obsidian学习.md",
     "01_流水/2024-05-07.md",
     "01_流水/2024-05-06.md",
-    "cb/00.md",
-    "cb/cb2.md",
-    "cb/cb1.md",
     "README.md",
-    "未命名.canvas",
     "文档 Welcome.md",
-    "2024-04-30.md",
     "source/img/polyx.png",
     "source/img/Pasted image 20240506133123.png",
-    "source/Pasted image 20240506132803.png",
-    "source/tmplates/会议记录模板.md",
-    "source/img",
-    "source/tmplates/日记模板.md"
+    "source/img"
   ]
 }
