@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cb/NFT.md",
+                "file": "工作/如何找工作（附web3找工作FAQ）.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e4c496e60423e42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作/副业.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cb/NFT.md",
+                "file": "工作/副业.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cb/NFT.md",
+                "file": "工作/副业.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cb/NFT.md"
+                "file": "工作/副业.md"
               }
             }
           },
@@ -192,12 +205,14 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "01d3ae7642cf11c0",
+  "active": "4e4c496e60423e42",
   "lastOpenFiles": [
+    "工作/如何找工作（附web3找工作FAQ）.md",
+    "工作/副业.md",
+    "cb/NFT.md",
     "cb/eth.md",
     "cb/cb2.md",
     "cb/cb1.md",
-    "工作/如何找工作（附web3找工作FAQ）.md",
     "perions/未命名.md",
     "英语/english learn.md",
     "perions/我能带来什么.md",
@@ -214,7 +229,6 @@
     "计算机相关/网络",
     "计算机相关",
     "英语",
-    "cb/NFT.md",
     "00_inbox/脚本.md",
     "00_inbox/mermaid画图.md",
     "00_inbox/Obsidian学习.md",
