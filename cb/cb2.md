@@ -3,8 +3,11 @@ tags:
   - cb
 ---
 
+
+# BTC
+
 ```dataviewjs
-let term = 'INJ';
+let term = 'BTC';
 dv.header(3, `${term}`)
 let files = dv.pages(`"01_流水"`)
 let rg1 = /!\[(?!\[).*?\]\((?!<?http:|<?https:|<?file:)(.+?\.[a-zA-Z]{3,4})\>?\)|!\[\[(.+?\.[a-zA-Z]{3,4})\|?.*?\]\]/g
@@ -85,6 +88,3 @@ files.map(async p => {
   dv.paragraph(`##### ${p.file.link}\n${A.join('\n')}`)  // 合块、输出
 })
 ```
-
-
-

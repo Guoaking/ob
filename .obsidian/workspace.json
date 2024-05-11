@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cb/cb2.md",
+                "file": "cb/00.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cb/cb2.md"
+                "file": "cb/00.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cb/cb2.md",
+                "file": "cb/00.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cb/cb2.md",
+                "file": "cb/00.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,18 +180,21 @@
   },
   "active": "1502d57d0f70bf47",
   "lastOpenFiles": [
-    "cb/NFT.md",
-    "cb/eth.md",
-    "cb/cb2.md",
-    "cb/cb1-历史.md",
+    "01_流水/2024-05-11.md",
     "cb/00.md",
+    "cb/cb2.md",
+    "cb/eth.md",
+    "cb/cb1-历史.md",
     "计算机相关/网络/NAT.md",
+    "01_流水/2024-05-08.md",
+    "999_source/img/telegram-cloud-photo-size-5-6185760467369180740-y.jpg",
+    "999_source/img/telegram-cloud-photo-size-5-6190213644080495942-y.jpg",
+    "cb/NFT.md",
     "计算机相关/k8s/00.md",
     "计算机相关/k8s",
     "计算机相关/网络/DNS.md",
     "计算机相关/网络/TCPIP.md",
     "计算机相关/jq.md",
-    "01_流水/2024-05-08.md",
     "00_inbox/Obsidian学习.md",
     "999_source/img/Pasted image 20240508133423.png",
     "999_source/img/Pasted image 20240508133633.png",
@@ -222,10 +225,6 @@
     "计算机相关/网络",
     "计算机相关",
     "00_inbox/脚本.md",
-    "01_流水/2024-05-07.md",
-    "01_流水/2024-05-06.md",
-    "README.md",
-    "source/img/polyx.png",
-    "source/img/Pasted image 20240506133123.png"
+    "01_流水/2024-05-07.md"
   ]
 }
