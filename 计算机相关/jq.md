@@ -1,0 +1,56 @@
+Jq 文档
+
+官方: https://jqlang.github.io/jq/manual/v1.7/#streaming
+
+中文 1.5: https://alingse.github.io/jq-manual-cn/manual/v1.5/
+
+
+ ### 序列化/反序列化（Serialization/Deserialization）
+
+| Option | Description              |
+| ------ | ------------------------ |
+| `-R`   | 序列化 (將 JSON 格式轉成可以傳輸的字串) |
+| `-r`   | 反序列化 (將字串轉回 JSON 格式)     |
+
+```
+```bash
+sed 's/"//g'
+```
+```
+
+
+```shell
+
+jq '.data| length'
+
+
+
+cat cale.json  | jq '.data| map(select(.value | contains("user_id")) | { "name": .name, "value": .value,"description":.description })| map(.value | fromjson) | .[].user_id' 
+
+
+cat ~/Downloads/search_all.json  |jq '.data| map(select(.value | contains("user_id")) | { "name": .name, "value": .value,"description":.description })| map(.value | fromjson) | map(select(.tenant_id ==7348385919433360233 ) | {"user_id":.user_id,"tenant_id":.tenant_id}) | .[].user_id '
+
+
+
+cat ~/Downloads/im_all.json  |jq '.data| map(select(.value | contains("user_id")) | { "name": .name, "value": .value,"description":.description })| map(.value | fromjson) | map(select(.tenant_id ==7348385919433360233 ) | {"user_id":.user_id,"tenant_id":.tenant_id}) | .[].user_id '
+
+
+
+```
+
+```
+ jq '[{ "name": .[].name, "value": .[].value }]'
+```
+
+```
+map(select(.value != "") | { "name": .name, "value": .value })
+```
+
+```
+map(select(.value | contains("user_id")) | { "name": .name, "value": .value })
+```
+
+
+```
+
+```
