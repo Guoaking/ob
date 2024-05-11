@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机相关/jq.md",
+                "file": "计算机相关/网络/NAT.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机相关/jq.md"
+                "file": "计算机相关/网络/NAT.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机相关/jq.md",
+                "file": "计算机相关/网络/NAT.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机相关/jq.md",
+                "file": "计算机相关/网络/NAT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,8 +193,11 @@
   },
   "active": "3d333c9fcb0ce248",
   "lastOpenFiles": [
-    "cb/cb2.md",
+    "计算机相关/网络/DNS.md",
+    "计算机相关/网络/TCPIP.md",
+    "计算机相关/网络/NAT.md",
     "计算机相关/jq.md",
+    "cb/cb2.md",
     "01_流水/2024-05-08.md",
     "cb/cb1.md",
     "00_inbox/Obsidian学习.md",
@@ -210,7 +213,6 @@
     "工作/如何找工作（附web3找工作FAQ）.md",
     "未命名.canvas",
     "00_inbox/remote 资料.md",
-    "计算机相关/网络/DNS.md",
     "英语/english learn.md",
     "英语/成年人eng速成指南.md",
     "计算机相关/00 资料.md",
@@ -225,9 +227,7 @@
     "999_source",
     "cb/eth.md",
     "cb/NFT.md",
-    "计算机相关/网络/NAT.md",
     "?",
-    "计算机相关/网络/TCPIP.md",
     "00_inbox/mermaid画图.md",
     "英语",
     "计算机相关/网络",
