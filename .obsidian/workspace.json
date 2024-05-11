@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3d333c9fcb0ce248",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算机相关/网络/NAT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机相关/网络/NAT.md"
+                "file": "cb/cb2.md"
               }
             }
           },
@@ -108,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机相关/网络/NAT.md",
+                "file": "cb/cb2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机相关/网络/NAT.md",
+                "file": "cb/cb2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,17 +178,21 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "3d333c9fcb0ce248",
+  "active": "1502d57d0f70bf47",
   "lastOpenFiles": [
+    "cb/NFT.md",
+    "cb/eth.md",
+    "cb/cb2.md",
+    "cb/cb1-历史.md",
+    "cb/00.md",
+    "计算机相关/网络/NAT.md",
+    "计算机相关/k8s/00.md",
+    "计算机相关/k8s",
     "计算机相关/网络/DNS.md",
     "计算机相关/网络/TCPIP.md",
-    "计算机相关/网络/NAT.md",
     "计算机相关/jq.md",
-    "cb/cb2.md",
     "01_流水/2024-05-08.md",
-    "cb/cb1.md",
     "00_inbox/Obsidian学习.md",
-    "cb/00.md",
     "999_source/img/Pasted image 20240508133423.png",
     "999_source/img/Pasted image 20240508133633.png",
     "999_source/img/Pasted image 20240508133545.png",
@@ -225,8 +216,6 @@
     "999_source/tmplates",
     "999_source/img",
     "999_source",
-    "cb/eth.md",
-    "cb/NFT.md",
     "?",
     "00_inbox/mermaid画图.md",
     "英语",
@@ -236,9 +225,7 @@
     "01_流水/2024-05-07.md",
     "01_流水/2024-05-06.md",
     "README.md",
-    "文档 Welcome.md",
     "source/img/polyx.png",
-    "source/img/Pasted image 20240506133123.png",
-    "source/img"
+    "source/img/Pasted image 20240506133123.png"
   ]
 }
