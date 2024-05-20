@@ -62,3 +62,20 @@ map(select(.value | contains("user_id")) | { "name": .name, "value": .value })
 
 ### Netstat?
 
+
+## 磁盘设备
+
+Mount
+
+Lsblk
+
+列出所有的块设备和他们的依赖关系
+设备挂载点
+
+磁盘分区表类型: GPT 和 MBR
+`parted -l`
+
+`fdisk -l`
+
+
+块设备 SCSI 设置
