@@ -56,6 +56,20 @@ map({ "name": .app, "title": .title })
 ```
 
 
+```
+map(. + []))
+
+cat 2.txt | jq '.data.list | map(.name )'
+
+```
+
+
+```
+cat gw.all | jq '.data.list | map(select(.real_count==0)|.name)'
+
+
+```
+
 ### Socat 
 
 ### Netcat ?
