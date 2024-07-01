@@ -70,6 +70,14 @@ cat gw.all | jq '.data.list | map(select(.real_count==0)|.name)'
 
 ```
 
+
+```
+cat code.txt | jq '.data.list[]|.ticket_code' | sed 's/"//g'  | tr '\n' ',' | awk '{print substr($0, 1, length($0) - 1)}'
+
+
+
+cat code.txt | jq '.data.list[]|.ticket_code'  | tr '\n' ',' | awk '{print substr($0, 1, length($0) - 1)}'
+```
 ### Socat 
 
 ### Netcat ?
