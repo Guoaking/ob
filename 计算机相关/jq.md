@@ -77,6 +77,11 @@ cat code.txt | jq '.data.list[]|.ticket_code' | sed 's/"//g'  | tr '\n' ',' | aw
 
 
 cat code.txt | jq '.data.list[]|.ticket_code'  | tr '\n' ',' | awk '{print substr($0, 1, length($0) - 1)}'
+
+
+cat black.txt  | jq '.data.list[]| select(.ticket_type!="license")|.ticket_code' | sed 's/"//g'  | tr '\n' ',' | awk '{print substr($0, 1, length($0) - 1)}'
+
+
 ```
 ### Socat 
 
