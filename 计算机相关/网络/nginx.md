@@ -80,3 +80,6 @@ gdb /usr/local/nginx/sbin/nginx <master_pid>
 ngx_http_index_handler -> 
 ngx_http_upstream_process_header -> 
 ```
+
+
+https://github.com/y123456yz/reading-code-of-nginx-1.9.2/blob/master/nginx-1.9.2/src/http/modules/ngx_http_log_module.c
