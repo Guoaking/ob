@@ -6,7 +6,6 @@
   "obsidian-reveal-active-file",
   "cmenu-plugin",
   "obsidian-cursor-location-plugin",
-  "easy-typing-obsidian",
   "obsidian-better-command-palette",
   "various-complements",
   "quickadd",
@@ -17,5 +16,6 @@
   "attachment-flow-plugin",
   "obsidian-memos",
   "link-favicon",
-  "oz-clear-unused-images"
+  "oz-clear-unused-images",
+  "mermaid-tools"
 ]
