@@ -18,5 +18,6 @@
   "link-favicon",
   "oz-clear-unused-images",
   "mermaid-tools",
-  "obsidian-charts"
+  "obsidian-charts",
+  "templater-obsidian"
 ]
