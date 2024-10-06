@@ -81,6 +81,7 @@ TypeError: Cannot read properties of null (reading 'addPlugin')
 
 [dataview API](https://blacksmithgu.github.io/obsidian-dataview/api/code-reference/)
 
+[函数说明](https://coffeetea.top/zh/dataview/dataviewjs-fuction.html)
 
 ### dv.current()🍇查询当前页
 ```js
@@ -214,4 +215,13 @@ const b = files.map(async function(p){
     dv.paragraph("## "+p.file.name+"\n\`\`\`ad-note\ntitle: DailyNote\n"+x.slice(term.length)+"\n\`\`\`");
 }
 )
+```
+
+
+## list task
+
+```js
+dv.taskList(dv.current().file.tasks)
+dv.taskList(dv.page("perions/体检.md").file.tasks)
+dv.taskList(dv.pages('"perions"').file.tasks.where(t => t.text.includes("need")))
 ```
