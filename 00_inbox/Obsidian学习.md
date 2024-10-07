@@ -6,9 +6,10 @@
 
 [obsidian Help](https://help.obsidian.md/Plugins/Search)
 
-[obsidian API](https://docs.obsidian.md/Reference/TypeScript+API)
+[obsidian API](https://docs.obsidian.md/Reference/TypeScript+API/Vault)
 
 [obsidian 中文论坛](https://forum-zh.obsidian.md/)
+
 
 
 
