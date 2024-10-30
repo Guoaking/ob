@@ -87,6 +87,7 @@ cat black.txt  | jq '.data.list[]| select(.ticket_type!="license")|.ticket_code'
 
 ### Netcat ?
 
+
 ### Netstat?
 
 
