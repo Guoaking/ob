@@ -4,7 +4,6 @@
   "obsidian-excalidraw-plugin",
   "dataview",
   "obsidian-reveal-active-file",
-  "cmenu-plugin",
   "obsidian-cursor-location-plugin",
   "obsidian-better-command-palette",
   "various-complements",
@@ -18,5 +17,7 @@
   "link-favicon",
   "oz-clear-unused-images",
   "mermaid-tools",
-  "templater-obsidian"
+  "templater-obsidian",
+  "cmenu-plugin",
+  "obsidian-charts"
 ]
