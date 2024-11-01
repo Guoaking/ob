@@ -5,7 +5,7 @@
   "newFileFolderPath": "00_inbox",
   "alwaysUpdateLinks": true,
   "promptDelete": false,
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "showUnsupportedFiles": true,
   "pdfExportSettings": {
     "includeName": true,

@@ -4,9 +4,9 @@
   "obsidian-excalidraw-plugin",
   "dataview",
   "obsidian-reveal-active-file",
+  "cmenu-plugin",
   "obsidian-cursor-location-plugin",
   "obsidian-better-command-palette",
-  "various-complements",
   "quickadd",
   "smart-random-note",
   "note-refactor-obsidian",
@@ -18,6 +18,8 @@
   "oz-clear-unused-images",
   "mermaid-tools",
   "templater-obsidian",
-  "cmenu-plugin",
-  "obsidian-charts"
+  "better-export-pdf",
+  "obsidian-hover-editor",
+  "obsidian-quiet-outline",
+  "obsidian-advanced-uri"
 ]
