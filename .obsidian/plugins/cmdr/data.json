@@ -1,0 +1,45 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": [
+      "BRAT",
+      "打开快速切换",
+      "新建白板",
+      "打开命令面板",
+      "管理工作区布局",
+      "新建绘图文件",
+      "Open Random Note from Search",
+      "Open Mermaid Toolbar",
+      "Copilot Chat",
+      "Templater",
+      "Clear Unused Images",
+      "Thino",
+      "打开/创建今天的日记",
+      "查看关系图谱",
+      "Open Git source control"
+    ]
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

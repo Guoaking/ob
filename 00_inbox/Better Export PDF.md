@@ -7,7 +7,8 @@ tags:
 title: "[[Better Export PDF]]"
 ---
 ## 说明
-一个 Obsidian PDF 导出增强插件，与官方的 PDF 导出功能相比，增加了导出预览、导出书签大纲和给 PDF 添加页码等功能。
+一个 Obsidian PDF 导出增强插件，与官方的 PDF 导出功能相比，增加了导出预览、导出书签大纲和给 PDF 添加页码等功能。 ^450f2c
+
 [中文说明](https://github.com/l1xnan/obsidian-better-export-pdf/blob/master/README.zh.md) ^d7375e
 
 ## 使用

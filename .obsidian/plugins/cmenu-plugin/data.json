@@ -30,6 +30,11 @@
       "id": "cmenu-plugin:codeblock",
       "name": "cMenu: Toggle codeblock",
       "icon": "codeblock-glyph"
+    },
+    {
+      "id": "app:reload",
+      "name": "重新加载 Obsidian（不保存当前编辑内容）",
+      "icon": "lucide-rotate-ccw"
     }
   ],
   "appendMethod": "workspace",
