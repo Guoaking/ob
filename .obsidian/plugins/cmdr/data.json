@@ -2,7 +2,14 @@
   "confirmDeletion": true,
   "showAddCommand": true,
   "debug": false,
-  "editorMenu": [],
+  "editorMenu": [
+    {
+      "id": "templater-obsidian:走走走_source/tmplates/callout.md",
+      "icon": "lucide-app-window",
+      "name": "Insert callout",
+      "mode": "any"
+    }
+  ],
   "fileMenu": [],
   "leftRibbon": [],
   "rightRibbon": [],
