@@ -5,10 +5,8 @@
   "dataview",
   "obsidian-reveal-active-file",
   "cmenu-plugin",
-  "obsidian-cursor-location-plugin",
   "obsidian-better-command-palette",
   "quickadd",
-  "smart-random-note",
   "note-refactor-obsidian",
   "obsidian-git",
   "obsidian42-brat",
@@ -25,5 +23,6 @@
   "copilot",
   "cmdr",
   "obsidian-charts",
-  "markwhen"
+  "open-in-new-tab",
+  "remember-cursor-position"
 ]
