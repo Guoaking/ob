@@ -16,8 +16,14 @@
 
 
 ```mermaid
-graph TD
+flowchart LR
 a --> b
+
+subgraph 标品演练  
+标品演练独有节点 --> 加工白名单网络配置  & 创建测试用例 & 开启工单自动同步 & 制作oapi_doc工单  
+制作oapi_doc工单 --> 通知apigw工单平台检查  
+end
+
 ```
 
 

@@ -16,5 +16,14 @@
       ],
       "key": "N"
     }
-  ]
+  ],
+  "workspace:close-others": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "W"
+    }
+  ],
+  "workspace:close": []
 }
