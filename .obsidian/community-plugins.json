@@ -20,13 +20,12 @@
   "templater-obsidian",
   "better-export-pdf",
   "obsidian-hover-editor",
-  "obsidian-quiet-outline",
   "obsidian-advanced-uri",
-  "copilot",
   "cmdr",
   "obsidian-charts",
   "markwhen",
-  "table-editor-obsidian",
   "open-in-new-tab",
-  "remember-cursor-position"
+  "remember-cursor-position",
+  "table-editor-obsidian",
+  "obsidian-quiet-outline"
 ]
