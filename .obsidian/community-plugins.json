@@ -26,5 +26,7 @@
   "heatmap-calendar",
   "homepage",
   "obsidian-meta-bind-plugin",
-  "obsidian-banners"
+  "obsidian-banners",
+  "simple-code-formatter",
+  "contribution-graph"
 ]

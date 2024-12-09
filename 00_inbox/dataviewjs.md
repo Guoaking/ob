@@ -130,10 +130,28 @@ dv.paragraph(`其中==笔记== **${i[1]}** 篇，==收集文章== **${i[2]}** �
 ```
 
 
+## moment 时间
+
+```js
+moment().format('YYYY-MM-DD')
+moment(Number(p.file.cday)).get("year")
+moment(Number(p.file.cday)).format("yyyy-MM-DD")
+```
+
 
 ## 功能：显示文件的时间
+
 ```dataviewjs
-dv.list( dv.pages(``) .filter(p=>moment(Number(p.file.cday)).get("year")==2024) .sort(p=>p.file.cday,'desc') .map(p=>moment(Number(p.file.cday)).format('yyyy-MM-DD')+' >> '+p.file.link) )
+dv.list(
+  dv
+    .pages(``)
+    .filter((p) => moment(Number(p.file.cday)).format("yyyy-MM-DD") == moment().format('YYYY-MM-DD'))
+    .sort((p) => p.file.cday, "desc")
+    .map(
+      (p) =>
+        moment(Number(p.file.cday)).format("yyyy-MM-DD") + " >> " + p.file.link,
+    ),
+);
 
 ```
 
@@ -154,25 +172,9 @@ for(let i of dv.pagePaths(`"00_inbox"`).groupBy(p=>p.split("/")[1])){
 
 
 ```dataviewjs
-let la = Array()
-let da = Array()
-for(let i of dv.pages().groupBy(p=>p.file.folder.split("/")[0]))
-{
-	la.push(i.key);
-	let n = dv.pages(`"${i.key}"`).length;
-	da.push(n);
+for (let page of dv.pages()) {
+	//console.log(page)
 }
-
-dv.paragraph(`\`\`\`chart
-type: pie
-labels: [${la}]
-series:
-- title: none
-  data: [${da}]
-width: 50%
-legendPosition: left
-labelColors: true
-\`\`\``);
 ```
 
 
@@ -225,3 +227,5 @@ dv.taskList(dv.page("perions/体检.md").file.tasks)
 ```dataviewjs
 dv.taskList(dv.pages('"perions"').file.tasks.where(t => t.text.includes("")))
 ```
+
+

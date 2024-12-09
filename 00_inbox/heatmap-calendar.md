@@ -29,6 +29,136 @@ https://github.com/Richardsl/heatmap-calendar-obsidian
 - **学习曲线**：由于需要使用 JavaScript 和 DataviewJS，可能对初学者不太友好。
 - **依赖性**：需要依赖 Dataview 插件，对于不使用 Dataview 的用户可能不太适用。
 
+- **`intensity`**：每个条目的强度值，用于映射颜色深度。强度值越高，对应的颜色越深。
+- **`defaultEntryIntensity`**：默认条目强度，影响未指定强度的条目的颜色。
+- **`intensityScaleStart` 和 `intensityScaleEnd`**：这两个属性定义了强度值的范围。强度值在这个范围内会被映射到颜色渐变上。例如，如果设置为0-100，则1-20会映射到最浅的颜色，而80-100会映射到最深的颜色。
+
+
+
+```dataviewjs
+
+dv.span("**🎉 文件跟踪 🎉**");
+
+// 获取当前文件夹下的所有文档
+const files = dv.pages(); // 替换为你的文件夹路径
+
+// 统计每天创建的文档数量
+let dailyCounts = {};
+files.forEach(file => {
+    const date = moment(Number(file.file.cday)).format("yyyy-MM-DD"); // 假设文件名为YYYY-MM-DD格式
+    dailyCounts[date] = (dailyCounts[date] || 0) + 1; // 统计数量
+});
+
+// 构建热图日历所需的数据格式
+const calendarData = {
+	year: 2024,  // (optional) defaults to current year
+	colors: {    // (optional) defaults to green
+		blue:        ["#8cb9ff", "#69a3ff", "#428bff", "#1872ff", "#0058e2"], // first entry is considered default if supplied
+		green:       ["#c6e48b", "#7bc96f", "#49af5d", "#2e8840", "#196127"],
+		red:         ["#ff9e82", "#ff7b55", "#ff4d1a", "#e73400", "#bd2a00"],
+		orange:      ["#ffa244", "#fd7f00", "#dd6f00", "#bf6000", "#9b4e00"],
+		pink:        ["#ff96cb", "#ff70b8", "#ff3a9d", "#ee0077", "#c30062"],
+		orangeToRed: ["#ffdf04", "#ffbe04", "#ff9a03", "#ff6d02", "#ff2c01"],
+		transparent: ["transparent"]
+	},
+	showCurrentDayBorder: true, // (optional) defaults to true
+	defaultEntryIntensity: 4,   // (optional) defaults to 4
+	intensityScaleStart: 1,    // (optional) defaults to lowest value passed to entries.intensity
+	intensityScaleEnd: 10,     // (optional) defaults to highest value passed to entries.intensity
+	entries: [],                // (required) populated in the DataviewJS loop below
+};
+
+// 填充entries数组
+for (let date in dailyCounts) {
+    calendarData.entries.push({
+        date: date, // 日期（yyyy-mm-dd格式）
+        intensity: dailyCounts[date], // 对应的文档数量
+        content: `${dailyCounts[date]}`, // 显示在方块上的文档数量
+        //content: await dv.span(`[](${page.file.name})`), //for hover preview
+        color: "green"
+    });
+}
+
+// 渲染Heatmap Calendar
+renderHeatmapCalendar(this.container, calendarData);
+
+```
+
+```contributionGraph
+title: "🎉 文件跟踪 🎉"
+graphType: default
+dateRangeValue: 1
+dateRangeType: LATEST_YEAR
+startOfWeek: 1
+showCellRuleIndicators: false
+titleStyle:
+  textAlign: left
+  fontSize: 15px
+  fontWeight: weight
+  backgroundColor: 'transparent'
+dataSource:
+  type: PAGE
+  value: ""
+  dateField: {}
+fillTheScreen: true
+enableMainContainerShadow: false
+cellStyleRules: []
+cellStyleRules: # personized your graph style
+  - text: '✅'
+    min: 1
+    max: 2
+  - text: '🌳'
+    min: 2
+    max: 3
+  - text: '🚩'
+    min: 3
+    max: 4
+  - text: '🚀'
+    min: 4
+    max: 999
+cellStyleRules: # personized your graph style
+  - color: '#f1d0b4'
+    min: 1
+    max: 2
+  - color: '#e6a875'
+    min: 2
+    max: 3
+  - color: '#d97d31'
+    min: 3
+    max: 4
+  - color: '#b75d13'
+    min: 4
+    max: 999
+
+```
+
+
+```contributionGraph
+title: Contributions
+graphType: default
+dateRangeValue: 180
+dateRangeType: LATEST_DAYS
+startOfWeek: 1
+showCellRuleIndicators: true
+titleStyle:
+  textAlign: left
+  fontSize: 15px
+  fontWeight: normal
+dataSource:
+  type: ALL_TASK
+  value: ""
+  dateField: {}
+fillTheScreen: false
+enableMainContainerShadow: false
+cellStyleRules: []
+
+```
+
+
+列出所有的有效todo 
+根据当前情况分出优先级
+处理or不处理
+
 ## 2. Heatmap Tracker (by Mokkiebear)
 
 ## 优点：
@@ -63,3 +193,24 @@ https://github.com/Richardsl/heatmap-calendar-obsidian
 - 如果您需要高度自定义和灵活的数据跟踪，**Heatmap Calendar** 可能是最佳选择。
 - 如果您希望快速上手并实现基本的数据可视化，**Heatmap Tracker** 是一个不错的选择。
 - 如果您想要一个多用途且互动性强的工具来追踪习惯和笔记，则可以考虑使用 **Contribution Graph**。
+
+```contributionGraph
+title: Contributions
+graphType: month-track
+dateRangeValue: 180
+dateRangeType: LATEST_DAYS
+startOfWeek: 1
+showCellRuleIndicators: false
+titleStyle:
+  textAlign: left
+  fontSize: 15px
+  fontWeight: normal
+dataSource:
+  type: PAGE
+  value: ""
+  dateField: {}
+fillTheScreen: false
+enableMainContainerShadow: false
+cellStyleRules: []
+
+```
