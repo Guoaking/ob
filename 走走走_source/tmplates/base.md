@@ -18,3 +18,11 @@ tags:
 三观: <% tp.system.suggester(["Happy", "Sad", "Confused"], ["Happy", "Sad", "Confused"]) %>
 title: "[[<% title %>]]"
 ---
+
+```dataviewjs
+dv.taskList(dv.current().file.tasks.where(t => t.text.includes("")))
+```
+
+
+
+- [ ] 本页待办展示

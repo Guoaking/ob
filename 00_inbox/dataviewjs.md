@@ -219,9 +219,9 @@ const b = files.map(async function(p){
 
 
 ## list task
-
-```js
 dv.taskList(dv.current().file.tasks)
 dv.taskList(dv.page("perions/体检.md").file.tasks)
-dv.taskList(dv.pages('"perions"').file.tasks.where(t => t.text.includes("need")))
+
+```dataviewjs
+dv.taskList(dv.pages('"perions"').file.tasks.where(t => t.text.includes("")))
 ```
