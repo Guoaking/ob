@@ -29,3 +29,20 @@ dscacheutil -flushcache
 
 
 dscacheutil -flushcache
+
+
+
+
+```
+
+
+
+一个命令行时间
+https://github.com/chubin/wttr.in
+
+```shell
+curl "wttr.in/~BeiJing+HaiDian?format=4" -H 'Accept-Language:zh-CN'
+```
+
+BeiJing+HaiDian: ☀️   🌡️+2°C 🌬️↓4km/h
+

@@ -17,12 +17,16 @@ tags:
 创建时间: <% tp.date.now("YYYY-MM-DD HH:mm:ss") %>
 三观: <% tp.system.suggester(["Happy", "Sad", "Confused"], ["Happy", "Sad", "Confused"]) %>
 title: "[[<% title %>]]"
+天气: "🌱北京<% tp.user.tianqi("") %>"
 ---
+
+**2024-12-09**🌱湖州: ☁️   🌡️+9°C 🌬️←10km/h
+
+
+
 
 ```dataviewjs
 dv.taskList(dv.current().file.tasks.where(t => t.text.includes("")))
 ```
 
 
-
-- [ ] 本页待办展示

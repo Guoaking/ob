@@ -3,8 +3,6 @@
 https://github.com/blacksmithgu/obsidian-dataview
 
 
-
-
 ## 常规操作
 
 > https://blacksmithgu.github.io/obsidian-dataview/queries/structure/
