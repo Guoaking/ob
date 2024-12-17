@@ -107,3 +107,17 @@ Lsblk
 
 
 块设备 SCSI 设置
+
+
+## sed
+
+```shell
+
+
+## 从前往后
+sed -n '1,/2024-08-02 19:10/ p' filtered_logs.log > filtered_logs_new.log
+
+## 从后往前
+sed -n '/2024-08-02 16:40/,$ p' deploy_task.log > filtered_logs.log ; 
+
+```
