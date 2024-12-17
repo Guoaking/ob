@@ -7,16 +7,17 @@
 
  ### 序列化/反序列化（Serialization/Deserialization）
 
+
 | Option | Description              |
 | ------ | ------------------------ |
 | `-R`   | 序列化 (將 JSON 格式轉成可以傳輸的字串) |
 | `-r`   | 反序列化 (將字串轉回 JSON 格式)     |
 
-```
 ```bash
 sed 's/"//g'
 ```
-```
+
+
 
 
 ```shell

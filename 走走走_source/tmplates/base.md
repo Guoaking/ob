@@ -20,7 +20,7 @@ title: "[[<% title %>]]"
 天气: "🌱北京<% tp.user.tianqi("") %>"
 ---
 
-**2024-12-09**🌱湖州: ☁️   🌡️+9°C 🌬️←10km/h
+**<% tp.date.now("YYYY-MM-DD") %>**🌱<% tp.user.tianqi("") %>
 
 
 
