@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "走走走_source/tmplates",
+  "templates_folder": "ZZZZZ_source/tmplates",
   "templates_pairs": [
     [
       "tianqi",
@@ -11,16 +11,16 @@
   "auto_jump_to_cursor": true,
   "enable_system_commands": true,
   "shell_path": "",
-  "user_scripts_folder": "走走走_source/tmplates/script",
+  "user_scripts_folder": "ZZZZZ_source/tmplates/script",
   "enable_folder_templates": true,
   "folder_templates": [
     {
       "folder": "/",
-      "template": "走走走_source/tmplates/base.md"
+      "template": "ZZZZZ_source/tmplates/base.md"
     },
     {
       "folder": "00_inbox",
-      "template": "走走走_source/tmplates/test1.md"
+      "template": "ZZZZZ_source/tmplates/test1.md"
     }
   ],
   "enable_file_templates": false,
@@ -33,10 +33,10 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "走走走_source/tmplates/Capture.md",
-    "走走走_source/tmplates/callout.md"
+    "ZZZZZ_source/tmplates/Capture.md",
+    "ZZZZZ_source/tmplates/callout.md"
   ],
   "startup_templates": [
-    "走走走_source/tmplates/base.md"
+    "ZZZZZ_source/tmplates/base.md"
   ]
 }
