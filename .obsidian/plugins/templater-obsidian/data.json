@@ -4,7 +4,7 @@
   "templates_pairs": [
     [
       "tianqi",
-      "curl -H \"Accept-Language: zh-CN\" \"wttr.in/湖州?format=4\""
+      "curl -H \"Accept-Language: zh-CN\" \"wttr.in/BeiJing?format=4\""
     ]
   ],
   "trigger_on_file_creation": true,
