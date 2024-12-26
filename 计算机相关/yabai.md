@@ -125,7 +125,7 @@ yabai -m window 1 --opacity 0.5
 ## 将窗口移动到 指定的桌面 不填则是当前窗口
 
 
-yabai -m space 1 --space  1.  
+yabai -m space 1 --space  1
 
 ## 将窗口移动到 指定的显示器
 yabai -m space 1  --display 1
@@ -151,11 +151,18 @@ yabai -m space 1 --opacity 0.5
 # 设置标签
 yabai -m display 1  --label mac 
 yabai -m display 2  --label homed
+yabai -m display 2  --label workmain
 
 
 
 yabai -m space  1  --label mac1
 yabai -m space  2  --label mac2
+
+yabai -m space  4  --label main1
+yabai -m space  5  --label main2
+
+
+
 
 ```
 
