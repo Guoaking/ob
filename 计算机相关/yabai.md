@@ -366,3 +366,22 @@ display_manager_set_label_for_display
 
 标签应该是写在内存display_manager中, 会丢
 ```
+
+
+
+
+### 小说
+
+
+## [天才俱乐部](https://www.qidian.com/book/1037762892/ "天才俱乐部最新章节在线阅读")
+## [这游戏也太真实了](https://www.qidian.com/book/1029391348/ "这游戏也太真实了最新章节在线阅读")
+## [神秘复苏](https://www.qidian.com/book/1012584111/ "神秘复苏最新章节在线阅读")
+## [黎明之剑](https://www.qidian.com/book/1010400217/ "黎明之剑最新章节在线阅读")
+## [放开那个女巫](https://www.qidian.com/book/1003306811/ "放开那个女巫最新章节在线阅读")
+
+
+## [末世：我的关键词比别人多一个](https://www.qidian.com/book/1036660859/ "末世：我的关键词比别人多一个在线阅读")
+
+
+## [凡人修仙传](https://www.qidian.com/book/107580/ "凡人修仙传最新章节在线阅读")
+
