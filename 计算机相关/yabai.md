@@ -155,21 +155,14 @@ yabai -m display 2  --label workmain
 
 
 
+## space 老是丢, 所以直接用id
 yabai -m space  1  --label mac1
 yabai -m space  2  --label mac2
 
 yabai -m space  4  --label main1
 yabai -m space  5  --label main2
 
-
-
-
 ```
-
-
-
-
-
 
 
 ### 事件
@@ -364,3 +357,12 @@ System Integrity Protection status: enabled.
 
 
 
+
+### 文件说明
+
+```
+/Users/bytedance/Documents/project/else/yabai/src/display_manager.c
+display_manager_set_label_for_display 
+
+标签应该是写在内存display_manager中, 会丢
+```
