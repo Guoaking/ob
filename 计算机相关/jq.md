@@ -129,20 +129,10 @@ curl --request GET \
   --url http://lark-edgeproxy-boe.byted.org/ep/api/v1/publicnet/list \
   --header 'Content-Type: application/json' | jq '.data|map({ "unit": .unit, "idc": .idc })' > v1.json
 
-
-
 cat v1.json | jq '.|map(select(.unit=="kamigrate" or .idc=="kamigratelark"))' > v2.json
-
-
-
 
 curl --request GET \
   --url http://lark-edgeproxy-boe.byted.org/ep/api/v1/publicnet/list \
   --header 'Content-Type: application/json' | jq '.data|map({ "unit": .unit, "idc": .idc })' | jq '.|map(select(.unit=="kamigrate" or .idc=="kamigratelark"))'
-
-
-
-
-
 
 ```
