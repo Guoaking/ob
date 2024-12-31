@@ -7,10 +7,12 @@
 let allTasks = [];
 
 // 遍历所有文件，筛选出未完成的任务
-for (let page of dv.pages()) {
+for (let page of dv.pages().filter(p =>!p.file.folder.includes("ZZZZZ_source"))) {
     // 获取当前页面的任务
     let tasks = page.file.tasks;
-
+	if (page.file.name=="todo"|| page.file.name == "老家") {
+		continue
+	}
     // 筛选未完成的任务并添加到 allTasks 数组中
     for (let task of tasks) {
         if (!task.completed) {
