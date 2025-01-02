@@ -102,20 +102,6 @@ dataSource:
   dateField: {}
 fillTheScreen: true
 enableMainContainerShadow: false
-cellStyleRules: []
-cellStyleRules: # personized your graph style
-  - text: '✅'
-    min: 1
-    max: 2
-  - text: '🌳'
-    min: 2
-    max: 3
-  - text: '🚩'
-    min: 3
-    max: 4
-  - text: '🚀'
-    min: 4
-    max: 999
 cellStyleRules: # personized your graph style
   - color: '#f1d0b4'
     min: 1
@@ -127,6 +113,19 @@ cellStyleRules: # personized your graph style
     min: 3
     max: 4
   - color: '#b75d13'
+    min: 4
+    max: 999
+cellStyleRules: # personized your graph style
+  - text: '✅'
+    min: 1
+    max: 2
+  - text: '🌳'
+    min: 2
+    max: 3
+  - text: '🚩'
+    min: 3
+    max: 4
+  - text: '🚀'
     min: 4
     max: 999
 

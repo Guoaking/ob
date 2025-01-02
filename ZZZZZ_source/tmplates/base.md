@@ -20,7 +20,7 @@ title: "[[<% title %>]]"
 天气: "🌱北京<% tp.user.tianqi("") %>"
 ---
 
-**<% tp.date.now("YYYY-MM-DD") %>**🌱<% tp.user.tianqi("") %>
+**<% tp.date.now("YYYY-MM-DD") %>🌱<% tp.user.tianqi("") %>
 
 
 
@@ -28,5 +28,4 @@ title: "[[<% title %>]]"
 ```dataviewjs
 dv.taskList(dv.current().file.tasks.where(t => t.text.includes("")))
 ```
-
 

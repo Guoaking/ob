@@ -4,7 +4,7 @@
   "templates_pairs": [
     [
       "tianqi",
-      "curl -H \"Accept-Language: zh-CN\" \"wttr.in/BeiJing?format=4\""
+      "curl \"wttr.in/~BeiJing+HaiDian?format=2\" -H 'Accept-Language:zh-CN'"
     ]
   ],
   "trigger_on_file_creation": true,
@@ -21,6 +21,10 @@
     {
       "folder": "00_inbox",
       "template": "ZZZZZ_source/tmplates/test1.md"
+    },
+    {
+      "folder": "01_流水",
+      "template": "ZZZZZ_source/tmplates/日记模板.md"
     }
   ],
   "enable_file_templates": false,

@@ -1,7 +1,4 @@
 
-
-
-
 ```dataviewjs
 // 初始化一个数组来存储所有未完成的待办事项
 let allTasks = [];
@@ -139,12 +136,13 @@ dataSource:
     type: FILE_NAME
     format: yyyy-MM-dd
   countField:
-    type: DEFAULT
+    type: TASK_PROPERTY
     value: tags
   filters:
     - id: "1735797536935"
-      type: STATUS_IS
-      value: COMPLETED
+      type: CONTAINS_ANY_TAG
+      value:
+        - "#tags"
 cellStyleRules:
   - text: 🚩
     min: 1
@@ -165,44 +163,5 @@ mainContainerStyle: {}
 ```
 
 
-```dataviewjs
-const from = '2024-10-01'
-const to = '2025-02-03'
-const data = dv.pages('"01_流水"')
-	.groupBy(p =>  p.file.ctime.toFormat('yyyy-MM-dd'))
-	.map(entry =>{
-		return {
-			date: entry.key,
-			value: entry.rows.length
-		}
-	})
-
-const calendarData = {
-    title:  `${from} to ${to}`, // graph title
-    data: data, // data
-    graphType: "calendar",
-    fromDate: from, // from date, yyyy-MM-dd
-    toDate: to, // to date, yyyy-MM-dd
-    fillTheScreen: true,
-	startOfWeek: 1,
-	cellStyleRules: [
-		{
-			text: "🚩",
-			min: 1,
-			max: 2,
-		},
-		{
-			text: "✅",
-			min: 2,
-			max: 999,
-		}
-	],
-	onCellClick: (item) => {
-	    // generate search key
-	    const key = `["tags":project] ["createTime":${item.date}]`
-	    // use global-search plugin to search data
-		app.internalPlugins.plugins['global-search'].instance.openGlobalSearch(key)
-    },
-}
-renderContributionGraph(this.container, calendarData)
+```
 ```
