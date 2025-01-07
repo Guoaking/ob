@@ -124,7 +124,7 @@ if (allTasks.length > 0) {
 
 ```contributionGraph
 title: 考驾驶证
-graphType: calendar
+graphType: month-track
 dateRangeType: FIXED_DATE_RANGE
 startOfWeek: 1
 showCellRuleIndicators: false
@@ -146,12 +146,9 @@ dataSource:
       type: STATUS_IS
       value: COMPLETED
 cellStyleRules:
-  - text: 🚩
-    min: 1
-    max: 2
   - text: ✅
-    min: 3
-    max: 4
+    min: 1
+    max: 999
 fillTheScreen: true
 enableMainContainerShadow: false
 cellStyle:
@@ -159,7 +156,7 @@ cellStyle:
   minWidth: 16px
   minHeight: 16px
 fromDate: 2024-10-01
-toDate: 2025-01-02
+toDate: 2025-01-07
 mainContainerStyle: {}
 
 ```
