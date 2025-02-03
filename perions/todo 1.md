@@ -122,50 +122,5 @@ if (allTasks.length > 0) {
 
 
 
-```contributionGraph
-title: 考驾驶证
-graphType: calendar
-dateRangeType: FIXED_DATE_RANGE
-startOfWeek: 1
-showCellRuleIndicators: false
-titleStyle:
-  textAlign: center
-  fontSize: 15px
-  fontWeight: normal
-dataSource:
-  type: TASK_IN_SPECIFIC_PAGE
-  value: '"01_流水"'
-  dateField:
-    type: FILE_NAME
-    format: yyyy-MM-dd
-  countField:
-    type: TASK_PROPERTY
-    value: tags
-  filters:
-    - id: "1735797536935"
-      type: CONTAINS_ANY_TAG
-      value:
-        - "#tags"
-cellStyleRules:
-  - text: 🚩
-    min: 1
-    max: 2
-  - text: ✅
-    min: 3
-    max: 4
-fillTheScreen: true
-enableMainContainerShadow: false
-cellStyle:
-  borderRadius: ""
-  minWidth: 16px
-  minHeight: 16px
-fromDate: 2024-10-01
-toDate: 2025-01-02
-mainContainerStyle: {}
-
-```
 
 
-```
-
-```

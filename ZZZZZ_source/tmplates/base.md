@@ -17,10 +17,8 @@ tags:
 创建时间: <% tp.date.now("YYYY-MM-DD HH:mm:ss") %>
 三观: <% tp.system.suggester(["Happy", "Sad", "Confused"], ["Happy", "Sad", "Confused"]) %>
 title: "[[<% title %>]]"
-天气: "🌱北京<% tp.user.tianqi("") %>"
 ---
 
-**<% tp.date.now("YYYY-MM-DD") %>🌱<% tp.user.tianqi("") %>
 
 
 
