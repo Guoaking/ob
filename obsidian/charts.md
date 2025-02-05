@@ -38,3 +38,25 @@ labelColors: true
 
 
 
+
+```chart
+type: radar
+labels: [云原生架构,复杂系统设计,工程效能,团队领导,技术前瞻]
+series:
+  - title: 能力
+	data: [95,90,88,85,92]
+width: 60%
+fill: true
+tension: 0.1
+spanGaps: true
+beginAtZero: true
+legend: false
+legendPosition: bottom
+stacked: true
+xReverse: true
+rMax: 100
+rMin: 60
+rTickDisplay: false
+rDisplay: false
+transparency: 0.2
+```
