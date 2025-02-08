@@ -9,5 +9,6 @@
   "interfaceFontFamily": "Chalkboard",
   "translucency": false,
   "theme": "moonstone",
-  "textFontFamily": "Chalkboard"
+  "textFontFamily": "Chalkboard",
+  "showRibbon": true
 }
