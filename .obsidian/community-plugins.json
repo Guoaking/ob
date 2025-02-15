@@ -27,5 +27,6 @@
   "obsidian-meta-bind-plugin",
   "obsidian-banners",
   "simple-code-formatter",
-  "contribution-graph"
+  "contribution-graph",
+  "diagram-zoom-drag"
 ]
