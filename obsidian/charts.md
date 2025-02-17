@@ -60,3 +60,29 @@ rTickDisplay: false
 rDisplay: false
 transparency: 0.2
 ```
+
+
+
+```chart
+type: line
+labels: [Monday,Tuesday,Wednesday,Thursday,Friday]
+series:
+ - title: Title 1
+   data: [1,3,3,4,5]
+ - title: Title 2
+   data: [5,4,3,2,1]
+ - title: Title 2
+   data: [4,3,4,4,4]
+width: 60%
+fill: true
+tension: 0.5
+spanGaps: true
+beginAtZero: true
+legend: true
+legendPosition: bottom
+stacked: true
+transparency: 0.2
+bestFit: true 
+bestFitTitle: "Best Fit Title!" 
+bestFitNumber: 1
+```
