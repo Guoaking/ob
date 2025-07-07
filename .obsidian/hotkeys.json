@@ -25,5 +25,20 @@
       "key": "W"
     }
   ],
-  "workspace:close": []
+  "workspace:close": [],
+  "switcher:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    },
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ]
 }

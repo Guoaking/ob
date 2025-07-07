@@ -6,9 +6,10 @@
   ],
   "nativeMenus": true,
   "showViewHeader": false,
-  "interfaceFontFamily": "Chalkboard",
+  "interfaceFontFamily": "Apple Braille",
   "translucency": false,
   "theme": "moonstone",
-  "textFontFamily": "Chalkboard",
-  "showRibbon": true
+  "textFontFamily": "Arial Narrow",
+  "showRibbon": true,
+  "monospaceFontFamily": "Andale Mono"
 }
