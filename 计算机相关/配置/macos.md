@@ -25,6 +25,10 @@ brew install --cask wezterm@nightly
 brew install wget zsh git fzf rg eza zoxide mos  yazi raycast ssh   
 brew install --no-quarantine --cask nikitabobko/tap/aerospace
 brew install bat ncdu procs duckdb curl
+brew install itsycal  bruno hiddenbar 
+brew install  docker  orbstack
+brew install --cask alt-tab
+
   
 brew install nvim
 git clone https://github.com/LazyVim/starter ~/.config/nvim
@@ -118,7 +122,67 @@ https://github.com/wylie102/duckdb.yazi
 ```
 
 
+### 编程环境依赖
 
+```
+python
+
+goland
+
+rust
+
+lua 
+
+docker 
+
+ docker context use orbstack
+
+
+```
+
+
+
+### 浏览器插件
+
+
+
+### vscode goland
+ 配置 
+ 
+
+```bash
+
+#golang
+插件  
+
+vim 
+
+# vscode
+
+插件
+```
+
+### 输入法 [[RIME]]
+
+```
+
+https://rime.im/download/
+
+macos 
+~/Library
+
+ln -s /Users/bytedance/.config/Rime  Rime
+
+```
+
+
+### 各种软链
+
+```
+.duckdbrc  ->  
+
+
+```
 
 ### DNS
 
