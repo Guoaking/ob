@@ -4,5 +4,6 @@ conflict-files-obsidian-git.md
 .obsidian/plugins/remember-cursor-position/cursor-positions.json
 .DS_Store
 ./../.DS_Store
+**/.DS_Store
 ZZZZZ_source/book/jinji_8_hongguan.pdf
 .trash

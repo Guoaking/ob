@@ -8,7 +8,119 @@ title: "[[macos]]"
 ---
 
 
-## DNS
+## 基本
+```bash
+defaults write -g NSAutomaticWindowAnimationsEnabled -bool false
+
+Defaults write com.apple.Dock autohide-delay -float 0 && killall Dock
+
+## homebrew 
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)"
+
+
+## 字体
+
+brew install --cask wezterm@nightly
+brew install wget zsh git fzf rg eza zoxide mos  yazi raycast ssh   
+brew install --no-quarantine --cask nikitabobko/tap/aerospace
+brew install bat ncdu procs duckdb curl
+  
+brew install nvim
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+```
+
+
+
+### zsh
+```bash
+
+# 设置环境变量
+echo 'export ZDOTDIR="$HOME/.config/zsh"' >> ~/.zshenv
+
+# 重新加载配置
+exec zsh
+
+# 检查路径
+echo $ZDOTDIR
+echo $ZSH
+
+export ZDOTDIR="$HOME"
+export ZSH="$HOME/.oh-my-zsh"
+
+
+
+
+### oh my zsh 
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+### 下载p10k 
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.config/oh-my-zsh/custom}/themes/powerlevel10k
+
+
+# 安装 zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+# 安装 zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+# 设置自动建议颜色 
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#808080" 
+
+# 启用即时建议 
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+
+
+# 移动整个目录
+mv ~/.oh-my-zsh ~/.config/oh-my-zsh
+
+  
+
+# 更新 zshrc 中的路径
+sed -i '' 's|$HOME/.oh-my-zsh|$HOME/.config/oh-my-zsh|g' ~/.config/zsh/.zshrc
+
+
+# 移动主题目录
+mv ~/.oh-my-zsh/custom/themes/powerlevel10k ~/.config/oh-my-zsh/themes/
+
+  
+
+# 更新 zshrc 中的主题路径
+sed -i '' 's|~/.oh-my-zsh/custom/themes|~/.config/oh-my-zsh/themes|g' ~/.config/zsh/.zshrc
+```
+
+
+
+### lazyvim 
+
+```
+nvim 
+
+
+理论上 下载完nvim即可?
+
+
+
+
+
+
+```
+
+
+
+### yazi
+
+```bash
+
+插件
+https://github.com/wylie102/duckdb.yazi
+
+```
+
+
+
+
+### DNS
 
 ```plain_text
 networksetup -setdnsservers Wi-Fi 8.8.8.8 114.114.114.114 180.76.76.76
@@ -58,14 +170,8 @@ BeiJing+HaiDian: ☀️   🌡️+2°C 🌬️↓4km/h
 
 
 
-### yazi
 
-```
-
-```
-
-
-areospace
+### areospace
 
 
 
