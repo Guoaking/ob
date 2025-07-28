@@ -1,0 +1,16 @@
+/* 例：将所有虚拟链接的颜色设定为红色 */
+/*.virtual-link a{ 
+    color: red !important;
+}*/
+
+span.virtual-link>a.internal-link{
+  background-color: rgba(206, 195, 94, 0.1);
+  border-bottom: 2px rgba(238, 190, 34, 0.69);
+  border-bottom-style: dashed;
+  color: var(--text-normal) !important;
+  text-decoration-line:none;
+}
+
+.virtual-link-default {
+  filter: none;
+}

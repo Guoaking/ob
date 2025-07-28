@@ -20,7 +20,6 @@
   "obsidian-better-command-palette",
   "cmdr",
   "obsidian-plugin-prettier",
-  "various-complements",
   "obsidian-kanban",
   "heatmap-calendar",
   "homepage",
@@ -30,5 +29,8 @@
   "contribution-graph",
   "diagram-zoom-drag",
   "pdf-plus",
-  "zotlit"
+  "zotlit",
+  "various-complements",
+  "obsidian-auto-link-title",
+  "virtual-linker"
 ]
