@@ -35,7 +35,10 @@
       "Thino",
       "打开/创建今天的日记",
       "查看关系图谱",
-      "Open Git source control"
+      "Open Git source control",
+      "PDF++: Toggle auto-copy",
+      "PDF++: Toggle auto-focus",
+      "PDF++: Toggle auto-paste"
     ]
   },
   "spacing": 8,

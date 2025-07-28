@@ -2,7 +2,8 @@
   "accentColor": "",
   "cssTheme": "Typora-Vue",
   "enabledCssSnippets": [
-    "my-style"
+    "my-style",
+    "virtualLinks"
   ],
   "nativeMenus": true,
   "showViewHeader": false,

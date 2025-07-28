@@ -13,7 +13,7 @@
   "excludedDirectoriesForLinking": [],
   "virtualLinkSuffix": "🔗",
   "virtualLinkAliasSuffix": "🔗",
-  "useMarkdownLinks": false,
+  "useMarkdownLinks": true,
   "linkFormat": "shortest",
   "defaultUseMarkdownLinks": false,
   "defaultLinkFormat": "shortest",
@@ -34,5 +34,5 @@
   "onlyLinkOnce": true,
   "excludeLinksToRealLinkedFiles": true,
   "includeAliases": true,
-  "alwaysShowMultipleReferences": false
+  "alwaysShowMultipleReferences": true
 }
