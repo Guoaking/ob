@@ -37,6 +37,12 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 
 
 ### zsh
+
+
+[zsh: 18 Zsh Line Editor](https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html#Zsh-Line-Editor)
+
+
+
 ```bash
 
 # 设置环境变量
@@ -67,6 +73,11 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 # 安装 zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+
+# 安装 vi-mode
+git clone https://github.com/jeffreytse/zsh-vi-mode \
+  $ZSH_CUSTOM/plugins/zsh-vi-mode
 
 # 设置自动建议颜色 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#808080" 
