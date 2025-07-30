@@ -23,6 +23,8 @@ dv.taskList(dv.current().file.tasks.where(t => t.text.includes("")))
 
 查看应用名称
 
+
+
 ```bash
 yabai -m query --windows  | jq '.[]|{id,app,title}'
 
