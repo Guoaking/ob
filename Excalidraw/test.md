@@ -4,15 +4,40 @@ excalidraw-plugin: parsed
 tags: [excalidraw]
 
 ---
-==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
+
+==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
+
 
 # Excalidraw Data
+
 ## Text Elements
-测试文字 ^test123
+测试主题 ^testTheme
+
+分支概念A ^branchA
+
+分支概念B ^branchB
+
+详细说明1 ^detail1
+
+详细说明2 ^detail2
+
+关键要点 ^keyPoint
+
+结论总结 ^conclusion
 
 %%
 ## Drawing
 ```compressed-json
-{"type":"excalidraw","version":2,"source":"https://excalidraw.com","elements":[{"id":"test123","type":"text","x":100,"y":100,"width":100,"height":25,"angle":0,"strokeColor":"#000000","backgroundColor":"transparent","fillStyle":"hachure","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"strokeSharpness":"sharp","seed":12345,"version":1,"versionNonce":1234567890,"isDeleted":false,"boundElementIds":null,"text":"测试文字","fontSize":20,"fontFamily":1,"textAlign":"left","verticalAlign":"top","baseline":18}],"appState":{"gridSize":null,"viewBackgroundColor":"#ffffff"},"files":{}}
+N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQAObQBmGjoghH0EDihmbgBtcDBQMBKIEm4GABV8AHYARwB1ADEADVSSyFhECqgsKHbSzG5nAEYapO0eAFZ+UphhkfiAFlnI
+
+ChJ1bnjVqQRCZWluaZ3rZWDuAAYd5ihSNgBrBABhNnw2UgqAYhGEH5+ByCaXDYe7KO5CDjEF5vD4SW7WZhwXCBbIAiAAM0I+HwAGVYOcJIIPGibndHg0NpIjtdbg8EHiYAT0ETyjtwQcOOFcmgRjs2EjsGp5jyLldCpAwcI4ABJYjc1B5AC6O3R5Eysu4HCE2J2hEhWAquAuaPBkM5zHlWp14ogYQQxG4IyWSSmIxGSXiFxmNsYLHYXDQSR2vtYn
+
+AAcpwxI7pgA2JZTL3jXXMAAi6V6DrQtyECB2mmEkIAosFMtlLdr8DshHBiLgM46alMljweDUls2YwBOMUdCBEDj3TUVnZvEH27joghhHa9TD9CQmyiVPoVNHozhQHGEIziXg90rr7JNXD6LHC1De3uzqAAQSIygD6GC6P6waYUHMBDv+0f0H5aL0bJcD1JgNTQK1Kxtd59j1AhlznVcTiEKA2AAJXCbdd2zXMbX7BAAAk9gOedUBGSYpkKABfcBl
+
+ToXA4DgPE613YpOkkDJdz7fZDlmBhCAQCgACFgVBU0oVed4vnRaSZIGCBsBEFEoGlXp9DxMlngk2F0G+X49LkhTSCUlSMmEkFJQhcSYR6cgOERZEslfQp5MUxyTP0JosVxfFOJZB1eMM4zVPUukKWITY0D4ZzArc4LaUeBkmVtV5WWi1zsnc1DhA5LlHQC9LlNUgB5AUhUdUV8qM2KMiaDdj1PfBz0vSAYoy1TauyLcdyOfcXKqtqMng2971/Z8n
+
+NKVrCoyJjSFvIy2AodjcEzVAIMqoKMkLSEb3mxaQhWiBkTuKh1uq/QduOyp4E4sS5OYbA7mxNo0CmJILm0RtePux78AATWGaZXV4ow2AMbhWMgegCBzR0qNOgb9CyyzzXlCBbt4sESC63ceF6zHiDxBA4G4ZqIHxgBZNhiAQLbcE0YIVsnfBp2c/HoUktAIYgQTXgO0hlCBAAKHgxmoXhRfFmoxfeqYAEo0XQ5RtWRCp+aFng3rFjWrl4TXUBl+W
+
+4bS/rN3ihASo/Thy2tA81QQdD9VIPVlHBm0sjphnuGwnZsCIYms1IHMdg4E8sMDnDe2EKA8K98OjdKOwACsEGwHIcRDuBKep2n6fHNAmZZ0pgQ/RhKlB/BXava6KjCYJU/9AChBuAwru6cDh1wtgx0ZqcI9KfBQlvevS/LodsSo8BKP4DEsXCcHqMooA
 ```
 %%
