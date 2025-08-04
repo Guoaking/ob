@@ -144,7 +144,16 @@ dv.taskList(dv.current().file.tasks.where(t => t.text.includes("")))
 
 
 
+### ex
 
+```
+分析 ob/Excalidraw/* 所有文件, 找出需要通过ai成功创建excalidraw文件的 正确prompt,涉及
+创建规范
+创建要求
+创建风格
+等关键内容
+并创建一个test文件来验证是否成功
+```
 
 
 
