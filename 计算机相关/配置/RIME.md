@@ -14,6 +14,20 @@ dv.taskList(dv.current().file.tasks.where(t => t.text.includes("")))
 
 
 
+## 设计
+「输入引擎 Processors」: 引擎核心，处理按键消息。利用选词扩展实现「以词定字」功能，即在此组件下配置。
+「翻译器 Translators」: 翻译器，完成编码到文字的翻译。类似「动态日期时间」、「符号转换」、「用户自定义词典」等功能，即在此组件下配置。
+「过滤器 Filters」: 1. - 过滤器，过滤重排候选项，进入候选序列。「emoji」、「简繁转换」、「去重」、「单字优先」、「长句优先」等功能，即在此组件下配置。
+「拼写运算」、
+「码表」、
+「词典」
+ji lu
+
+1. Dictionary：字典，亦即词库。
+2. Custom_phrase：用户自定义短语。
+3. 
+
+
 
 ### 配置说明
 [定制指南](https://github.com/rime/home/wiki/CustomizationGuide)
@@ -77,3 +91,29 @@ oar
 
 [双拼在线练习](https://api.ihint.me/shuang)
 
+
+#### 工具性功能
+**以词定字** 
+选中第一个词的第一个或者第二个字 通过[]
+
+**日期** 
+关键字: time date  输入日期
+
+**快捷应用**
+
+```lua
+		["oav"] = { "[Rime 程序目录]" }, 
+		["ocm"] = { "[终端]" },          
+		["ofd"] = { "[访达]" },          
+		["ola"] = { "[Lark]" },          
+		["oob"] = { "[Obsidian]" },      
+		["oar"] = { "[Arc]" },           
+		["ovs"] = { "[vs]" },            
+		["ogj"] = { "[Rime 用户目录]" }, 
+		["ojf"] = { "[简繁切换]" },      
+		["ojs"] = { "[计算器]" },        
+		["owd"] = { "[Word]" },          
+
+```
+
+Ghttp://log-settings.byted.org/service/2/sdk_settings/"
