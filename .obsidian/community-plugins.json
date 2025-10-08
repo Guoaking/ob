@@ -29,10 +29,12 @@
   "contribution-graph",
   "diagram-zoom-drag",
   "pdf-plus",
-  "zotlit",
   "various-complements",
   "obsidian-auto-link-title",
   "virtual-linker",
   "obsidian-style-settings",
-  "folder-notes"
+  "folder-notes",
+  "obsidian-vimrc-support",
+  "vimium",
+  "obsidian-scroll-offset"
 ]

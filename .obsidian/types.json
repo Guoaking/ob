@@ -25,6 +25,7 @@
     "excalidraw-open-md": "checkbox",
     "创建时间": "datetime",
     "excalidraw-embeddable-theme": "text",
-    "分": "number"
+    "分": "number",
+    "excalidraw-embed-md": "checkbox"
   }
 }
