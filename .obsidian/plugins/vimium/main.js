@@ -851,7 +851,6 @@ function createMarkerText(text, markerEl, input = "") {
   Array.from(text).forEach((char, index) => {
     const charEl = createSpan();
     charEl.setText(char.toUpperCase());
-    charEl.setText(char);
     if (input.length >= index && char === input[index]) {
       charEl.addClass("vimium-marker-char-match");
     }
