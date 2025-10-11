@@ -377,7 +377,315 @@ display_manager_set_label_for_display
 ```
 
 
+45666y45678y456
+m,.456
 
+
+
+```json
+{
+    "description": "Yabai",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "1",
+                "modifiers": {
+                    "mandatory": [
+                        "left_option"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "~/Documents/project/script/yabai_move.sh 1"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "2",
+                "modifiers": {
+                    "mandatory": [
+                        "left_option"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "~/Documents/project/script/yabai_move.sh 2"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "3",
+                "modifiers": {
+                    "mandatory": [
+                        "left_option"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "~/Documents/project/script/yabai_move.sh 3"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "h",
+                "modifiers": {
+                    "mandatory": [
+                        "left_option"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "/opt/homebrew/bin/yabai -m window --focus west"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "j",
+                "modifiers": {
+                    "mandatory": [
+                        "left_option"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "/opt/homebrew/bin/yabai -m window --focus south"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "k",
+                "modifiers": {
+                    "mandatory": [
+                        "left_option"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "/opt/homebrew/bin/yabai -m window --focus north"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "l",
+                "modifiers": {
+                    "mandatory": [
+                        "left_option"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "/opt/homebrew/bin/yabai -m window --focus east"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "h",
+                "modifiers": {
+                    "mandatory": [
+                        "left_option",
+                        "left_shift"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "/opt/homebrew/bin/yabai -m window --warp west"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "j",
+                "modifiers": {
+                    "mandatory": [
+                        "left_option",
+                        "left_shift"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "/opt/homebrew/bin/yabai -m window --warp south"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "k",
+                "modifiers": {
+                    "mandatory": [
+                        "left_option",
+                        "left_shift"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "/opt/homebrew/bin/yabai -m window --warp north"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f",
+                "modifiers": {
+                    "mandatory": [
+                        "left_option"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "~/Documents/project/script/yabai_f.sh"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "d",
+                "modifiers": {
+                    "mandatory": [
+                        "left_option"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "~/Documents/project/script/yabai_rotate.sh 90"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "d",
+                "modifiers": {
+                    "mandatory": [
+                        "left_option",
+                        "left_shift"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "~/Documents/project/script/yabai_rotate.sh 180"
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
+
+```
+
+afsf挨罚asfsasd/////f/////////////,,//  %%  %%  
+////asfdssfsdl
+  %% //// %%      
+iina
+```json
+{
+    "description": " iina配置 ",
+    "manipulators": [
+        {
+            "from": {
+                "modifiers": {
+                    "mandatory": [
+                        "left_command",
+                        "left_control"
+                    ]
+                },
+                "simultaneous": [
+                    {
+                        "key_code": "spacebar"
+                    }
+                ]
+            },
+            "parameters": {
+                "basic.simultaneous_threshold_milliseconds": 450
+            },
+            "to": [
+                {
+                    "shell_command": "~/Documents/project/script/iina.sh pause"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "modifiers": {
+                    "mandatory": [
+                        "left_command",
+                        "left_control"
+                    ]
+                },
+                "simultaneous": [
+                    {
+                        "key_code": "close_bracket"
+                    }
+                ]
+            },
+            "parameters": {
+                "basic.simultaneous_threshold_milliseconds": 450
+            },
+            "to": [
+                {
+                    "shell_command": "~/Documents/project/script/iina.sh va"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "modifiers": {
+                    "mandatory": [
+                        "left_command",
+                        "left_control"
+                    ]
+                },
+                "simultaneous": [
+                    {
+                        "key_code": "open_bracket"
+                    }
+                ]
+            },
+            "parameters": {
+                "basic.simultaneous_threshold_milliseconds": 450
+            },
+            "to": [
+                {
+                    "shell_command": "~/Documents/project/script/iina.sh vd"
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
+```
 
 ### 小说
 
