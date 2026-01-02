@@ -21,11 +21,8 @@
     "excalidraw-border-color": "text",
     "excalidraw-css": "text",
     "excalidraw-autoexport": "text",
-    "excalidraw-iframe-theme": "text",
-    "excalidraw-open-md": "checkbox",
-    "创建时间": "datetime",
     "excalidraw-embeddable-theme": "text",
-    "分": "number",
+    "excalidraw-open-md": "checkbox",
     "excalidraw-embed-md": "checkbox"
   }
 }
