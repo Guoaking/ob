@@ -4,10 +4,10 @@
   "enabledCssSnippets": [],
   "nativeMenus": true,
   "showViewHeader": false,
-  "interfaceFontFamily": "霞鹜文楷,霞鹜文楷等宽,Apple Braille",
+  "interfaceFontFamily": "仓耳今楷03,霞鹜文楷,霞鹜文楷等宽,Apple Braille",
   "translucency": true,
   "theme": "moonstone",
-  "textFontFamily": "霞鹜文楷,霞鹜文楷等宽,Arial Narrow",
+  "textFontFamily": "仓耳今楷03,霞鹜文楷,霞鹜文楷等宽,Arial Narrow",
   "showRibbon": true,
-  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono,Andale Mono"
+  "monospaceFontFamily": "霞鹜文楷等宽,JetBrainsMono Nerd Font Mono,Andale Mono"
 }
