@@ -15,5 +15,6 @@
     "downscalePercent": 100
   },
   "showInlineTitle": true,
-  "vimMode": true
+  "vimMode": true,
+  "readableLineLength": true
 }
