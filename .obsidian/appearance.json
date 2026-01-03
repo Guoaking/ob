@@ -1,16 +1,13 @@
 {
   "accentColor": "",
-  "cssTheme": "Typora-Vue",
-  "enabledCssSnippets": [
-    "my-style",
-    "virtualLinks"
-  ],
+  "cssTheme": "Zen",
+  "enabledCssSnippets": [],
   "nativeMenus": true,
   "showViewHeader": false,
   "interfaceFontFamily": "Apple Braille",
-  "translucency": false,
+  "translucency": true,
   "theme": "moonstone",
   "textFontFamily": "Arial Narrow",
   "showRibbon": true,
-  "monospaceFontFamily": "Andale Mono"
+  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono,Andale Mono"
 }
