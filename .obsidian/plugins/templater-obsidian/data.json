@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "ZZZZZ_source/tmplates",
+  "templates_folder": "99_System/tmplates",
   "templates_pairs": [
     [
       "tianqi",
@@ -11,20 +11,20 @@
   "auto_jump_to_cursor": true,
   "enable_system_commands": true,
   "shell_path": "",
-  "user_scripts_folder": "ZZZZZ_source/tmplates/script",
+  "user_scripts_folder": "99_System/tmplates/script",
   "enable_folder_templates": true,
   "folder_templates": [
     {
       "folder": "/",
-      "template": "ZZZZZ_source/tmplates/base.md"
+      "template": "99_System/tmplates/base.md"
     },
     {
       "folder": "00_inbox",
-      "template": "ZZZZZ_source/tmplates/test1.md"
+      "template": "99_System/tmplates/test1.md"
     },
     {
-      "folder": "01_流水",
-      "template": "ZZZZZ_source/tmplates/日记模板.md"
+      "folder": "30_Journal",
+      "template": "99_System/tmplates/日记模板.md"
     }
   ],
   "enable_file_templates": false,
@@ -37,10 +37,11 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "ZZZZZ_source/tmplates/Capture.md",
-    "ZZZZZ_source/tmplates/callout.md"
+    "99_System/tmplates/Capture.md",
+    "99_System/tmplates/callout.md"
   ],
   "startup_templates": [
-    "ZZZZZ_source/tmplates/base.md"
-  ]
+    "99_System/tmplates/base.md"
+  ],
+  "intellisense_render": 1
 }
