@@ -1,0 +1,203 @@
+
+
+
+
+```dataviewjs
+// 初始化一个数组来存储所有未完成的待办事项
+let allTasks = [];
+
+// 遍历所有文件，筛选出未完成的任务
+for (let page of dv.pages().filter(p =>!p.file.folder.includes("ZZZZZ_source"))) {
+    // 获取当前页面的任务
+    let tasks = page.file.tasks;
+	if (page.file.name=="todo"|| page.file.name == "老家") {
+		continue
+	}
+    // 筛选未完成的任务并添加到 allTasks 数组中
+    for (let task of tasks) {
+        if (!task.completed) {
+            allTasks.push({
+                text: task.text,
+                file: page.file.name, // 记录任务所在文件名
+                path: page.file.path,  // 记录文件路径
+                task: task             // 记录原始任务对象
+            });
+        }
+    }
+}
+
+// 输出所有未完成的任务
+if (allTasks.length > 0) {
+    // 创建表格展示未完成的任务
+    dv.table(["任务", "文件", "操作"], allTasks.map(task => [
+        task.text,
+        task.path,
+        `` // 添加可勾选的复选框
+    ]));
+
+    // 添加事件监听器以处理复选框勾选事件
+    allTasks.forEach((task, index) => {
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.id = `task-${index}`;
+        const label = document.createElement('label');
+        label.textContent = '完成'; // 这里可以修改为你想要的任务描述文本
+       label.for = checkbox.id;
+        // 确保在表格渲染后再添加复选框
+        setTimeout(() => {
+            const cell = dv.container.querySelector(`tr:nth-child(${index + 1}) td:last-child`);
+            if (cell) { // 确保cell存在
+                cell.appendChild(checkbox);
+                cell.appendChild(label);
+            }
+        }, 0); // 使用setTimeout确保DOM已经更新
+    
+        // 添加事件监听器
+        checkbox.addEventListener('change', async () => {
+            if (checkbox.checked) {
+                // 更新任务为已完成状态
+                console.log(`任务 "${task.text}" 在 "${task.file}" 中已完成`);
+
+                // 更新原文件中的任务状态
+                const filePath = task.path;
+                const fileContent = await app.vault.read(app.vault.getAbstractFileByPath(filePath));
+                
+                // 使用正则表达式更新任务状态为已完成
+                const updatedContent = fileContent.replace(
+                    new RegExp(`- \\[ ] ${task.text}`), 
+                    `- [x] ${task.text}`
+                );
+
+                // 写回更新后的内容到文件
+                await app.vault.modify(app.vault.getAbstractFileByPath(filePath), updatedContent);
+                
+                // 重新加载页面以反映更改（可选）
+                //location.reload();
+            }
+        });
+
+
+    });
+} else {
+    dv.paragraph("没有找到未完成的待办事项。");
+}
+```
+
+
+
+
+- [x] 洗牙
+- [ ] 对目标概念的归纳整理
+- [ ] 学习入门级哲学
+- [ ] ob整个日历
+- [ ] 没有安全感? 钱能给你不少安全感
+- [x] 考驾照
+- [ ] 英语考试
+- [ ] 附近附近附近附近
+- [ ] 软考?
+- [x] 收拾家里
+	- [x] 先收拾和 w 相关的, 单独
+- [x] 体检一次
+- [ ] 锻炼:
+- [ ] 体验:
+- [ ] 人品研究
+- [ ] 家里水路
+- [ ] 微信: 
+- [ ] 知乎: 人在什么情况下成长最快
+- [ ] 荨麻疹, 哮喘, 免疫系统, 维生素
+- [ ] 学习理财
+- [ ] 保险: 医疗险, 重疾险
+- [ ] 今年最少尝试3次变现, 失败则总结经验复盘不足
+	- [ ] 知乎爬虫
+	- [ ] 租房通勤查询
+		1. api 商用限制
+		2. 市场? 
+	- [ ] 驾照经验整理拿出去 解决别人的需求
+- [ ] 做的多点
+
+
+
+```contributionGraph
+title: 考驾驶证
+graphType: month-track
+dateRangeType: FIXED_DATE_RANGE
+startOfWeek: 1
+showCellRuleIndicators: false
+titleStyle:
+  textAlign: center
+  fontSize: 15px
+  fontWeight: normal
+dataSource:
+  type: TASK_IN_SPECIFIC_PAGE
+  value: '"01_流水"'
+  dateField:
+    type: FILE_NAME
+    format: yyyy-MM-dd
+  countField:
+    type: DEFAULT
+    value: tags
+  filters:
+    - id: "1735797536935"
+      type: STATUS_IS
+      value: COMPLETED
+cellStyleRules:
+  - text: ✅
+    min: 1
+    max: 999
+fillTheScreen: true
+enableMainContainerShadow: false
+cellStyle:
+  borderRadius: ""
+  minWidth: 16px
+  minHeight: 16px
+fromDate: 2024-10-01
+toDate: 2025-01-07
+mainContainerStyle: {}
+
+```
+
+
+```dataviewjs
+const from = '2024-10-01'
+const to = '2025-02-03'
+const data = dv.pages('"01_流水"')
+	.groupBy(p =>  p.file.ctime.toFormat('yyyy-MM-dd'))
+	.map(entry =>{
+		return {
+			date: entry.key,
+			value: entry.rows.length
+		}
+	})
+
+const calendarData = {
+    title:  `${from} to ${to}`, // graph title
+    data: data, // data
+    graphType: "calendar",
+    fromDate: from, // from date, yyyy-MM-dd
+    toDate: to, // to date, yyyy-MM-dd
+    fillTheScreen: true,
+	startOfWeek: 1,
+	cellStyleRules: [
+		{
+			text: "🚩",
+			min: 1,
+			max: 2,
+		},
+		{
+			text: "✅",
+			min: 2,
+			max: 999,
+		}
+	],
+	onCellClick: (item) => {
+	    // generate search key
+	    const key = `["tags":project] ["createTime":${item.date}]`
+	    // use global-search plugin to search data
+		app.internalPlugins.plugins['global-search'].instance.openGlobalSearch(key)
+    },
+}
+renderContributionGraph(this.container, calendarData)
+```
+
+
+[香帅中国财富报告](https://bytedance.larkoffice.com/docx/N2T2dcok5od4rbxYjEAcQ6conrc)
