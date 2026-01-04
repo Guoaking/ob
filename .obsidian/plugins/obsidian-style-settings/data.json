@@ -56,5 +56,7 @@
   "Appearance-light@@background-activated-tab-header-light": "transparent",
   "Appearance-light@@shadow-activated-tab-header-light": "none",
   "Appearance-light@@color-activated-tab-header-underline-light": "var(--color-accent)",
-  "Appearance-light@@workspace-divider-transparent-light": true
+  "Appearance-light@@workspace-divider-transparent-light": true,
+  "Components@@colorful-folder": true,
+  "Plugin@@colorful-checkbox": true
 }
