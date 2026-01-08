@@ -20,6 +20,48 @@ dv.taskList(dv.current().file.tasks.where(t => t.text.includes("")))
 
 
 
+
+
+[cluade proxy](https://github.com/fuergaosi233/claude-code-proxy)
+
+
+
+## mcp
+
+### Browser Use
+
+[浏览器访问](https://github.com/exa-labs/exa-mcp-server)
+
+
+
+## agent 
+
+
+
+
+[agent all in one](https://github.com/wshobson/agents)
+
+
+
+
+
+## skills
+
+[skills官方仓库](https://github.com/anthropics/skills)
+
+[GitHub - obra/superpowers: Claude Code superpowers: core skills library](https://github.com/obra/superpowers)
+
+[GitHub - obra/superpowers-marketplace: Curated Claude Code plugin marketplace](https://github.com/obra/superpowers-marketplace)
+
+
+[GitHub - obra/superpowers-marketplace: Curated Claude Code plugin marketplace](https://github.com/obra/superpowers-marketplace)
+
+
+
+[GitHub - obra/superpowers-marketplace: Curated Claude Code plugin marketplace](https://github.com/obra/superpowers-marketplace)
+
+### 执行状态判断
+
 𝐀𝐜𝐜𝐨𝐦𝐩𝐥𝐢𝐬𝐡𝐢𝐧𝐠 ![👉](https://static.xx.fbcdn.net/images/emoji.php/v9/tf0/2/16/1f449.png) 完成中
 𝐀𝐜𝐭𝐢𝐨𝐧𝐢𝐧𝐠 ![👉](https://static.xx.fbcdn.net/images/emoji.php/v9/tf0/2/16/1f449.png) 行動中
 𝐀𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐢𝐧𝐠 ![👉](https://static.xx.fbcdn.net/images/emoji.php/v9/tf0/2/16/1f449.png) 實現中
