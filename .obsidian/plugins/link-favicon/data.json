@@ -1,6 +1,6 @@
 {
-  "provider": "duckduckgo",
-  "fallbackProvider": "google",
+  "provider": "iconhorse",
+  "fallbackProvider": "duckduckgo",
   "providerDomain": "",
   "fallbackProviderDomain": "",
   "ignored": "",
@@ -13,5 +13,5 @@
   "enableLivePreview": true,
   "debounce": 500,
   "iconPosition": "front",
-  "colorInversion": true
+  "colorInversion": false
 }

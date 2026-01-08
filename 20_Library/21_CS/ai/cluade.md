@@ -36,13 +36,7 @@ dv.taskList(dv.current().file.tasks.where(t => t.text.includes("")))
 
 ## agent 
 
-
-
-
 [agent all in one](https://github.com/wshobson/agents)
-
-
-
 
 
 ## skills
@@ -54,11 +48,8 @@ dv.taskList(dv.current().file.tasks.where(t => t.text.includes("")))
 [GitHub - obra/superpowers-marketplace: Curated Claude Code plugin marketplace](https://github.com/obra/superpowers-marketplace)
 
 
-[GitHub - obra/superpowers-marketplace: Curated Claude Code plugin marketplace](https://github.com/obra/superpowers-marketplace)
 
 
-
-[GitHub - obra/superpowers-marketplace: Curated Claude Code plugin marketplace](https://github.com/obra/superpowers-marketplace)
 
 ### 执行状态判断
 
