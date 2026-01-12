@@ -20,6 +20,12 @@ dv.taskList(dv.current().file.tasks.where(t => t.text.includes("")))
 
 
 
+## 评测
+
+[GLM-4.7 - Intelligence, Performance & Price Analysis](https://artificialanalysis.ai/models/glm-4-7)
+
+
+
 
 
 [cluade proxy](https://github.com/fuergaosi233/claude-code-proxy)
