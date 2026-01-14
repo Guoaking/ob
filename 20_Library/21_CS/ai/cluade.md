@@ -39,6 +39,55 @@ dv.taskList(dv.current().file.tasks.where(t => t.text.includes("")))
 [浏览器访问](https://github.com/exa-labs/exa-mcp-server)
 
 
+[claude-code-best-practice/reports/claude-in-chrome-v-chrome-devtools-mcp.md at main · shanraisshan/claude-code-best-practice · GitHub](https://github.com/shanraisshan/claude-code-best-practice/blob/main/reports/claude-in-chrome-v-chrome-devtools-mcp.md)
+
+
+### Chrome DevTools MCP
+
+[GitHub - ChromeDevTools/chrome-devtools-mcp: Chrome DevTools for coding agents](https://github.com/ChromeDevTools/chrome-devtools-mcp)
+
+
+```bash
+claude mcp add chrome-devtools npx chrome-devtools-mcp@latest
+```
+
+
+
+### Playwright MCP (Recommended)
+
+>  Playwright 的选择器（CSS/XPath）
+
+[GitHub - microsoft/playwright-mcp: Playwright MCP server](https://github.com/microsoft/playwright-mcp)
+[GitHub - remorses/playwriter: The better playwright MCP: works as a browser extension. No context bloat. More capable.](https://github.com/remorses/playwriter)
+
+
+skills
+[GitHub - lackeyjb/playwright-skill: Claude Code Skill for browser automation with Playwright. Model-invoked - Claude autonomously writes and executes custom automation for testing and validation.](https://github.com/lackeyjb/playwright-skill)
+
+
+
+```shell
+npx playwright install
+claude mcp add playwright -s user -- npx @playwright/mcp@latest
+```
+
+
+### dev-browser
+
+> 使用 UID 映射可访问性树
+
+
+[zread.ai \| 504: Gateway time-out](https://zread.ai/SawyerHood/dev-browser/3-choosing-your-mode-standalone-vs-extension)
+
+
+[GitHub - SawyerHood/dev-browser: A Claude Skill to give your agent the ability to use a web browser](https://github.com/SawyerHood/dev-browser)
+
+
+
+###  agent-browser
+
+
+[GitHub - vercel-labs/agent-browser: Browser automation CLI for AI agents](https://github.com/vercel-labs/agent-browser)
 
 ## agent 
 
