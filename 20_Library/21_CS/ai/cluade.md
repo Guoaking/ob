@@ -102,6 +102,18 @@ claude mcp add playwright -s user -- npx @playwright/mcp@latest
 
 [GitHub - obra/superpowers-marketplace: Curated Claude Code plugin marketplace](https://github.com/obra/superpowers-marketplace)
 
+#### webdev
+
+
+React & Next.js 的性能优化最佳实践 Skill
+
+[agent-skills/skills/react-best-practices at react-best-practices · vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills/tree/react-best-practices/skills/react-best-practices)
+
+ Web Design 相关的 Skills
+
+- Web Interface Guidelines：[GitHub - vercel-labs/web-interface-guidelines: Guidelines for building interfaces on the Web.](https://github.com/vercel-labs/web-interface-guidelines)
+- UI UX Pro Max：[GitHub - nextlevelbuilder/ui-ux-pro-max-skill: An AI SKILL that provide design intelligence for buil](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
+- UI Skills：[GitHub - ibelick/ui-skills: Opinionated constraints for building better interfaces with agents.](https://github.com/ibelick/ui-skills)
 
 
 ## N8N
