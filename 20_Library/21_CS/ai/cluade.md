@@ -104,6 +104,11 @@ claude mcp add playwright -s user -- npx @playwright/mcp@latest
 
 
 
+## N8N
+
+[【教程】n8n全网资讯热点捕捉器 - Xuan酱 0114 - 飞书云文档](https://ycnezwebj31p.feishu.cn/docx/Lb3fd4Pwro6c7Wx72Nwc6svwn9c)
+
+
 
 
 ### 执行状态判断
