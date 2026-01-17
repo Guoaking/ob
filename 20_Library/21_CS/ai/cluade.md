@@ -122,6 +122,9 @@ React & Next.js 的性能优化最佳实践 Skill
 
 
 
+[GitHub - jarrodwatts/claude-hud: A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress](https://github.com/jarrodwatts/claude-hud)
+
+
 
 ### 执行状态判断
 
