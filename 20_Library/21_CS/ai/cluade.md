@@ -62,6 +62,13 @@ claude mcp add chrome-devtools npx chrome-devtools-mcp@latest
 
 
 skills
+
+1. skill 调用没
+2. skill 生成
+3. skill 更新
+
+
+
 [GitHub - lackeyjb/playwright-skill: Claude Code Skill for browser automation with Playwright. Model-invoked - Claude autonomously writes and executes custom automation for testing and validation.](https://github.com/lackeyjb/playwright-skill)
 
 
@@ -71,6 +78,15 @@ npx playwright install
 claude mcp add playwright -s user -- npx @playwright/mcp@latest
 ```
 
+
+
+```
+
+npx add-skill vercel-labs/agent-skills
+npx skills-installer search 
+ 
+ 
+```
 
 ### dev-browser
 
@@ -98,20 +114,36 @@ claude mcp add playwright -s user -- npx @playwright/mcp@latest
 
 [skills官方仓库](https://github.com/anthropics/skills)
 
+> /plugin marketplace add anthropics/skills
+
 [GitHub - obra/superpowers: Claude Code superpowers: core skills library](https://github.com/obra/superpowers)
 
 [GitHub - obra/superpowers-marketplace: Curated Claude Code plugin marketplace](https://github.com/obra/superpowers-marketplace)
 
-#### webdev
+```
+/plugin marketplace add obra/superpowers-marketplac
+/plugin install superpowers@superpowers-marketplace
+```
 
+
+
+OpenSpec/SpecKit 像是严谨的 **“建筑设计师” 和 “监理”** ，核心设计哲学是 “规范 / 契约驱动开发”，先出详细图纸和规范，再监督施工，通过严格的文档来保证 AI 生成代码的确定性和质量，是一种强大而专业的方法论；而 Superpowers 更像一个 拥有全栈技能的 “智能施工队” ，拿到大致想法后，能自己规划、分工、施工并质检，更侧重于 “代理驱动” 的自动化工作流。前者重设计和契约，后者重执行和自动化，没有绝对优劣，只是适配不同开发场景！
+
+
+
+
+
+#### webdev
 
 React & Next.js 的性能优化最佳实践 Skill
 
-[agent-skills/skills/react-best-practices at react-best-practices · vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills/tree/react-best-practices/skills/react-best-practices)
+[GitHub - vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)
+* react-best-practices
+* web-design-guidelines
 
  Web Design 相关的 Skills
 
-- Web Interface Guidelines：[GitHub - vercel-labs/web-interface-guidelines: Guidelines for building interfaces on the Web.](https://github.com/vercel-labs/web-interface-guidelines)
+
 - UI UX Pro Max：[GitHub - nextlevelbuilder/ui-ux-pro-max-skill: An AI SKILL that provide design intelligence for buil](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
 - UI Skills：[GitHub - ibelick/ui-skills: Opinionated constraints for building better interfaces with agents.](https://github.com/ibelick/ui-skills)
 
