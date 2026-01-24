@@ -31,3 +31,21 @@ title: "[[README]]"
 dv.taskList(dv.current().file.tasks.where(t => t.text.includes("")))
 ```
 
+
+
+ai 知识的积累
+
+
+问题定义
+批判性思维, 证据
+领域理解: 第一性原理
+
+驾驭工具的能力
+1. 辅助我要学习的内容
+2. 怎么把工具用的更好,高效率,最大化并持续优化工作流
+	1. skills 随时把外部能力变成skill
+	2. 把自己的需求发现并变成skill
+	3. 高效的利用以上内容为自己创造价值
+	4. 了解ai gent的情况
+
+
